@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour {
-
+public class GameManager : MonoBehaviour
+{
 	// Use this for initialization
-	void Start () {
-		
+	void Start ()
+    {
+        OfficeGenerator.Instance.Generate(5, 5);
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		
 	}
 }
