@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InventoryManager : MonoBehaviour {
     private bool _collectedPainkillers;
@@ -49,19 +50,22 @@ public class InventoryManager : MonoBehaviour {
 
     public void Raycast()
     {
-        var forward = transform.TransformDirection(Vector3.back);
+        var camera = Camera.main;
 
         RaycastHit hit;
 
-        Debug.DrawRay(transform.position, -forward*2, Color.green);
+        Debug.DrawRay(camera.transform.position, camera.transform.forward * 3, Color.green, 1f);
 
-        if (Physics.Raycast(transform.position, -forward, out hit, 2))
+        if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit, 3))
         {
-            if (hit.collider.name.Equals("painkillers"))
+            if (hit.collider.name.Equals("Paracetamol"))
             {
                 CollectedPainKiller = true;
 
                 DestroyImmediate(hit.collider.gameObject);
+
+                //TODO: Add actual end game.
+                SceneManager.LoadSceneAsync("Game Complete");
             }
             else if (hit.collider.name.Equals("glass"))
             {
@@ -84,6 +88,14 @@ public class InventoryManager : MonoBehaviour {
                 CollectedPainKiller = true;
 
                 DestroyImmediate(hit.collider.gameObject);
+            }
+            else
+            {
+                var interactable = hit.collider.gameObject.GetComponent<IInteractable>();
+                if (interactable != null)
+                {
+                    interactable.Interact();
+                }
             }
         }
     }
