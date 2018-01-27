@@ -9,7 +9,7 @@ public class GameOverTracker : MonoBehaviour
 
     private void Start()
     {
-        GetComponent<MigraineTracker>().OnCurrentMigraineLevelPercentageChange.AddListener(OnCurrentMigraineLevelPercentageChange);
+        FindObjectOfType<MigraineTracker>().OnCurrentMigraineLevelPercentageChange.AddListener(OnCurrentMigraineLevelPercentageChange);
     }
 
     public void OnCurrentMigraineLevelPercentageChange(float percentage)
