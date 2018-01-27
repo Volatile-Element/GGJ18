@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4128379705820522}
   - component: {fileID: 114667021775530064}
+  - component: {fileID: 114760132822288130}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -51,3 +52,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3a34dc17f1de9048b2c0eedd87dc737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114760132822288130
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1371882197251622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878efaa4c4e922445ba31929e3cc52fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnGameOver:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
