@@ -24,7 +24,14 @@ public class MigraineTracker : MonoBehaviour
 
     public void DecreaseMigraine(float amount)
     {
-        CurrentMigraineLevelPercentage += amount;
+        if (CurrentMigraineLevelPercentage - amount < 0)
+        {
+            CurrentMigraineLevelPercentage = 0;
+        }
+        else
+        {
+            CurrentMigraineLevelPercentage -= amount;
+        }
 
         OnCurrentMigraineLevelPercentageChange.Invoke(CurrentMigraineLevelPercentage);
     }

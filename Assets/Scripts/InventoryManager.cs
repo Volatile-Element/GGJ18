@@ -74,20 +74,21 @@ public class InventoryManager : MonoBehaviour {
                     return;
                 }
 
-                CollectedPainKiller = true;
+                CollectedGlass = true;
 
                 DestroyImmediate(hit.collider.gameObject);
             }
-            else if (hit.collider.name.Equals("water"))
+            else if (hit.collider.name.Equals("Water Cooler"))
             {
-                if (!CollectedPainKiller || !CollectedGlass)
-                {
-                    return;
-                }
+                Debug.Log("Water");
+                //if (!CollectedPainKiller || !CollectedGlass)
+                //{
+                //    return;
+                //}
 
-                CollectedPainKiller = true;
+                CollectedWater = true;
 
-                DestroyImmediate(hit.collider.gameObject);
+                //DestroyImmediate(hit.collider.gameObject);
             }
             else
             {
@@ -100,12 +101,31 @@ public class InventoryManager : MonoBehaviour {
         }
     }
 
+    private void DrinkWater()
+    {
+        if (!CollectedWater)
+        {
+            return;
+        }
+
+        Debug.Log("Drink water");
+
+        GetComponent<MigraineTracker>().DecreaseMigraine(20);
+
+        Debug.Log(GetComponent<MigraineTracker>().CurrentMigraineLevelPercentage);
+        CollectedWater = false;
+    }
+
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown("e"))
         {
             Raycast();
+        }
+        else if (Input.GetKeyDown("2"))
+        {
+            DrinkWater();
         }
     }
 }
