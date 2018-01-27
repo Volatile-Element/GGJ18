@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: e352099e9a4376f46a6500ee3d24f8cb
+timeCreated: 1517089098
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Character:pCube4
+    100002: Character:pCube5
+    100004: Character:transform1
+    100006: Character:transform2
+    100008: Character:transform3
+    100010: Charcii:Character:pCube3
+    100012: Guy
+    100014: //RootNode
+    100016: QuickRigCharacter_Head
+    100018: QuickRigCharacter_Hips
+    100020: QuickRigCharacter_LeftArm
+    100022: QuickRigCharacter_LeftFoot
+    100024: QuickRigCharacter_LeftForeArm
+    100026: QuickRigCharacter_LeftHand
+    100028: QuickRigCharacter_LeftLeg
+    100030: QuickRigCharacter_LeftShoulder
+    100032: QuickRigCharacter_LeftUpLeg
+    100034: QuickRigCharacter_Neck
+    100036: QuickRigCharacter_Reference
+    100038: QuickRigCharacter_RightArm
+    100040: QuickRigCharacter_RightFoot
+    100042: QuickRigCharacter_RightForeArm
+    100044: QuickRigCharacter_RightHand
+    100046: QuickRigCharacter_RightLeg
+    100048: QuickRigCharacter_RightShoulder
+    100050: QuickRigCharacter_RightUpLeg
+    100052: QuickRigCharacter_Spine
+    100054: QuickRigCharacter_Spine1
+    400000: Character:pCube4
+    400002: Character:pCube5
+    400004: Character:transform1
+    400006: Character:transform2
+    400008: Character:transform3
+    400010: Charcii:Character:pCube3
+    400012: Guy
+    400014: //RootNode
+    400016: QuickRigCharacter_Head
+    400018: QuickRigCharacter_Hips
+    400020: QuickRigCharacter_LeftArm
+    400022: QuickRigCharacter_LeftFoot
+    400024: QuickRigCharacter_LeftForeArm
+    400026: QuickRigCharacter_LeftHand
+    400028: QuickRigCharacter_LeftLeg
+    400030: QuickRigCharacter_LeftShoulder
+    400032: QuickRigCharacter_LeftUpLeg
+    400034: QuickRigCharacter_Neck
+    400036: QuickRigCharacter_Reference
+    400038: QuickRigCharacter_RightArm
+    400040: QuickRigCharacter_RightFoot
+    400042: QuickRigCharacter_RightForeArm
+    400044: QuickRigCharacter_RightHand
+    400046: QuickRigCharacter_RightLeg
+    400048: QuickRigCharacter_RightShoulder
+    400050: QuickRigCharacter_RightUpLeg
+    400052: QuickRigCharacter_Spine
+    400054: QuickRigCharacter_Spine1
+    2100000: Guy_Coat
+    2100002: Guy_Fluff_Coat
+    2100004: Guy_Skin
+    2100006: Guy_Cuffs
+    2100008: Guy_Shirt
+    2100010: Guy_Hair
+    2100012: Guy_Shoes
+    2100014: Guy_Trousers
+    4300000: Guy
+    7400000: Water Coller.0001
+    9500000: //RootNode
+    13700000: Guy
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Water Coller.0001
+      takeName: Water Coller.0001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
