@@ -41,6 +41,8 @@ public class MigraineTracker : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1);
+
+            IncreaseMigraine(0.1f);
         }
     }
 }

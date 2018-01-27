@@ -1,0 +1,1457 @@
+fileFormatVersion: 2
+guid: 48885f844cdba674b9c5fe371833dc53
+timeCreated: 1517089071
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Character:Head
+    100002: Character:Hips
+    100004: Character:LeftArm
+    100006: Character:LeftFoot
+    100008: Character:LeftForeArm
+    100010: Character:LeftHand
+    100012: Character:LeftLeg
+    100014: Character:LeftShoulder
+    100016: Character:LeftToeBase
+    100018: Character:LeftUpLeg
+    100020: Character:Neck
+    100022: Character:pCube4
+    100024: Character:pCube5
+    100026: Character:QuickRigCharacter_Guides
+    100028: Character:Reference
+    100030: Character:RightArm
+    100032: Character:RightFoot
+    100034: Character:RightForeArm
+    100036: Character:RightHand
+    100038: Character:RightLeg
+    100040: Character:RightShoulder
+    100042: Character:RightToeBase
+    100044: Character:RightUpLeg
+    100046: Character:Spine
+    100048: Character:Spine1
+    100050: Character:Spine2
+    100052: Character:transform1
+    100054: Character:transform2
+    100056: Character:transform3
+    100058: Character_04:Head
+    100060: Character_04:Hips
+    100062: Character_04:LeftArm
+    100064: Character_04:LeftFoot
+    100066: Character_04:LeftForeArm
+    100068: Character_04:LeftHand
+    100070: Character_04:LeftLeg
+    100072: Character_04:LeftShoulder
+    100074: Character_04:LeftToeBase
+    100076: Character_04:LeftUpLeg
+    100078: Character_04:Neck
+    100080: Character_04:QuickRigCharacter_Guides
+    100082: Character_04:Reference
+    100084: Character_04:RightArm
+    100086: Character_04:RightFoot
+    100088: Character_04:RightForeArm
+    100090: Character_04:RightHand
+    100092: Character_04:RightLeg
+    100094: Character_04:RightShoulder
+    100096: Character_04:RightToeBase
+    100098: Character_04:RightUpLeg
+    100100: Character_04:Spine
+    100102: Character_04:Spine1
+    100104: Character_04:Spine2
+    100106: Charcii:Character:Head
+    100108: Charcii:Character:Hips
+    100110: Charcii:Character:LeftArm
+    100112: Charcii:Character:LeftFoot
+    100114: Charcii:Character:LeftForeArm
+    100116: Charcii:Character:LeftHand
+    100118: Charcii:Character:LeftLeg
+    100120: Charcii:Character:LeftShoulder
+    100122: Charcii:Character:LeftToeBase
+    100124: Charcii:Character:LeftUpLeg
+    100126: Charcii:Character:Neck
+    100128: Charcii:Character:pCube3
+    100130: Charcii:Character:QuickRigCharacter_Guides
+    100132: Charcii:Character:Reference
+    100134: Charcii:Character:RightArm
+    100136: Charcii:Character:RightFoot
+    100138: Charcii:Character:RightForeArm
+    100140: Charcii:Character:RightHand
+    100142: Charcii:Character:RightLeg
+    100144: Charcii:Character:RightShoulder
+    100146: Charcii:Character:RightToeBase
+    100148: Charcii:Character:RightUpLeg
+    100150: Charcii:Character:Spine
+    100152: Charcii:Character:Spine1
+    100154: Charcii:Character:Spine2
+    100156: Charcii:Character_04:Head
+    100158: Charcii:Character_04:Hips
+    100160: Charcii:Character_04:LeftArm
+    100162: Charcii:Character_04:LeftFoot
+    100164: Charcii:Character_04:LeftForeArm
+    100166: Charcii:Character_04:LeftHand
+    100168: Charcii:Character_04:LeftLeg
+    100170: Charcii:Character_04:LeftShoulder
+    100172: Charcii:Character_04:LeftToeBase
+    100174: Charcii:Character_04:LeftUpLeg
+    100176: Charcii:Character_04:Neck
+    100178: Charcii:Character_04:QuickRigCharacter_Guides
+    100180: Charcii:Character_04:Reference
+    100182: Charcii:Character_04:RightArm
+    100184: Charcii:Character_04:RightFoot
+    100186: Charcii:Character_04:RightForeArm
+    100188: Charcii:Character_04:RightHand
+    100190: Charcii:Character_04:RightLeg
+    100192: Charcii:Character_04:RightShoulder
+    100194: Charcii:Character_04:RightToeBase
+    100196: Charcii:Character_04:RightUpLeg
+    100198: Charcii:Character_04:Spine
+    100200: Charcii:Character_04:Spine1
+    100202: Charcii:Character_04:Spine2
+    100204: Cubicle
+    100206: Cubicle 1
+    100208: Cubicle1
+    100210: Cubicle1 1
+    100212: Cubicle2
+    100214: Cubicle2 1
+    100216: Cubicle3
+    100218: Cubicle3 1
+    100220: Cubicle4
+    100222: Cubicle4 1
+    100224: Cubicle4 2
+    100226: Cubicle4 3
+    100228: Cubicle4 4
+    100230: Cubicle5
+    100232: Cubicle5 1
+    100234: Cubicle5 2
+    100236: Cubicle5 3
+    100238: Cubicle5 4
+    100240: Cubicle6
+    100242: Cubicle6 1
+    100244: Cubicle6 2
+    100246: Cubicle6 3
+    100248: Cubicle6 4
+    100250: Cubicle7
+    100252: Cubicle7 1
+    100254: Cubicle7 2
+    100256: Cubicle7 3
+    100258: Cubicle7 4
+    100260: group1
+    100262: group10
+    100264: group10 1
+    100266: group10 10
+    100268: group10 11
+    100270: group10 12
+    100272: group10 13
+    100274: group10 14
+    100276: group10 15
+    100278: group10 16
+    100280: group10 17
+    100282: group10 18
+    100284: group10 19
+    100286: group10 2
+    100288: group10 20
+    100290: group10 21
+    100292: group10 22
+    100294: group10 23
+    100296: group10 24
+    100298: group10 25
+    100300: group10 26
+    100302: group10 27
+    100304: group10 3
+    100306: group10 4
+    100308: group10 5
+    100310: group10 6
+    100312: group10 7
+    100314: group10 8
+    100316: group10 9
+    100318: group11
+    100320: group11 1
+    100322: group11 10
+    100324: group11 11
+    100326: group11 12
+    100328: group11 13
+    100330: group11 14
+    100332: group11 15
+    100334: group11 16
+    100336: group11 17
+    100338: group11 18
+    100340: group11 19
+    100342: group11 2
+    100344: group11 20
+    100346: group11 21
+    100348: group11 22
+    100350: group11 23
+    100352: group11 24
+    100354: group11 25
+    100356: group11 26
+    100358: group11 27
+    100360: group11 3
+    100362: group11 4
+    100364: group11 5
+    100366: group11 6
+    100368: group11 7
+    100370: group11 8
+    100372: group11 9
+    100374: group12
+    100376: group12 1
+    100378: group13
+    100380: group13 1
+    100382: group14
+    100384: group15
+    100386: group16
+    100388: group17
+    100390: group18
+    100392: group2
+    100394: group2 1
+    100396: group2 10
+    100398: group2 11
+    100400: group2 12
+    100402: group2 13
+    100404: group2 14
+    100406: group2 15
+    100408: group2 16
+    100410: group2 17
+    100412: group2 18
+    100414: group2 19
+    100416: group2 2
+    100418: group2 20
+    100420: group2 21
+    100422: group2 22
+    100424: group2 23
+    100426: group2 24
+    100428: group2 25
+    100430: group2 26
+    100432: group2 27
+    100434: group2 3
+    100436: group2 4
+    100438: group2 5
+    100440: group2 6
+    100442: group2 7
+    100444: group2 8
+    100446: group2 9
+    100448: group6
+    100450: group6 1
+    100452: group6 10
+    100454: group6 11
+    100456: group6 12
+    100458: group6 13
+    100460: group6 14
+    100462: group6 15
+    100464: group6 16
+    100466: group6 17
+    100468: group6 18
+    100470: group6 19
+    100472: group6 2
+    100474: group6 20
+    100476: group6 21
+    100478: group6 22
+    100480: group6 23
+    100482: group6 24
+    100484: group6 25
+    100486: group6 26
+    100488: group6 27
+    100490: group6 3
+    100492: group6 4
+    100494: group6 5
+    100496: group6 6
+    100498: group6 7
+    100500: group6 8
+    100502: group6 9
+    100504: group7
+    100506: group7 1
+    100508: group7 10
+    100510: group7 11
+    100512: group7 12
+    100514: group7 13
+    100516: group7 14
+    100518: group7 15
+    100520: group7 16
+    100522: group7 17
+    100524: group7 18
+    100526: group7 19
+    100528: group7 2
+    100530: group7 20
+    100532: group7 21
+    100534: group7 22
+    100536: group7 23
+    100538: group7 24
+    100540: group7 25
+    100542: group7 26
+    100544: group7 27
+    100546: group7 3
+    100548: group7 4
+    100550: group7 5
+    100552: group7 6
+    100554: group7 7
+    100556: group7 8
+    100558: group7 9
+    100560: group8
+    100562: group8 1
+    100564: group8 10
+    100566: group8 11
+    100568: group8 12
+    100570: group8 13
+    100572: group8 14
+    100574: group8 15
+    100576: group8 16
+    100578: group8 17
+    100580: group8 18
+    100582: group8 19
+    100584: group8 2
+    100586: group8 20
+    100588: group8 21
+    100590: group8 22
+    100592: group8 23
+    100594: group8 24
+    100596: group8 25
+    100598: group8 26
+    100600: group8 27
+    100602: group8 3
+    100604: group8 4
+    100606: group8 5
+    100608: group8 6
+    100610: group8 7
+    100612: group8 8
+    100614: group8 9
+    100616: Head
+    100618: Hips
+    100620: joint1
+    100622: joint2
+    100624: joint3
+    100626: LeftArm
+    100628: LeftFoot
+    100630: LeftForeArm
+    100632: LeftHand
+    100634: LeftLeg
+    100636: LeftShoulder
+    100638: LeftToeBase
+    100640: LeftUpLeg
+    100642: Neck
+    100644: pCube12
+    100646: pCube13
+    100648: pCube14
+    100650: pPlane1
+    100652: pPlane2
+    100654: pPlane3
+    100656: pPlane4
+    100658: pPlane5
+    100660: pPlane6
+    100662: QuickRigCharacter_Guides
+    100664: Reference
+    100666: RightArm
+    100668: RightFoot
+    100670: RightForeArm
+    100672: RightHand
+    100674: RightLeg
+    100676: RightShoulder
+    100678: RightToeBase
+    100680: RightUpLeg
+    100682: //RootNode
+    100684: Spine
+    100686: Spine1
+    100688: transform1
+    100690: transform2
+    100692: typeMesh2
+    100694: Water_Coller_0001:Character:Head
+    100696: Water_Coller_0001:Character:Hips
+    100698: Water_Coller_0001:Character:LeftArm
+    100700: Water_Coller_0001:Character:LeftFoot
+    100702: Water_Coller_0001:Character:LeftForeArm
+    100704: Water_Coller_0001:Character:LeftHand
+    100706: Water_Coller_0001:Character:LeftLeg
+    100708: Water_Coller_0001:Character:LeftShoulder
+    100710: Water_Coller_0001:Character:LeftToeBase
+    100712: Water_Coller_0001:Character:LeftUpLeg
+    100714: Water_Coller_0001:Character:Neck
+    100716: Water_Coller_0001:Character:pCube4
+    100718: Water_Coller_0001:Character:pCube5
+    100720: Water_Coller_0001:Character:QuickRigCharacter_Guides
+    100722: Water_Coller_0001:Character:Reference
+    100724: Water_Coller_0001:Character:RightArm
+    100726: Water_Coller_0001:Character:RightFoot
+    100728: Water_Coller_0001:Character:RightForeArm
+    100730: Water_Coller_0001:Character:RightHand
+    100732: Water_Coller_0001:Character:RightLeg
+    100734: Water_Coller_0001:Character:RightShoulder
+    100736: Water_Coller_0001:Character:RightToeBase
+    100738: Water_Coller_0001:Character:RightUpLeg
+    100740: Water_Coller_0001:Character:Spine
+    100742: Water_Coller_0001:Character:Spine1
+    100744: Water_Coller_0001:Character:Spine2
+    100746: Water_Coller_0001:Character:transform1
+    100748: Water_Coller_0001:Character:transform2
+    100750: Water_Coller_0001:Character:transform3
+    100752: Water_Coller_0001:Character_04:Head
+    100754: Water_Coller_0001:Character_04:Hips
+    100756: Water_Coller_0001:Character_04:LeftArm
+    100758: Water_Coller_0001:Character_04:LeftFoot
+    100760: Water_Coller_0001:Character_04:LeftForeArm
+    100762: Water_Coller_0001:Character_04:LeftHand
+    100764: Water_Coller_0001:Character_04:LeftLeg
+    100766: Water_Coller_0001:Character_04:LeftShoulder
+    100768: Water_Coller_0001:Character_04:LeftToeBase
+    100770: Water_Coller_0001:Character_04:LeftUpLeg
+    100772: Water_Coller_0001:Character_04:Neck
+    100774: Water_Coller_0001:Character_04:QuickRigCharacter_Guides
+    100776: Water_Coller_0001:Character_04:Reference
+    100778: Water_Coller_0001:Character_04:RightArm
+    100780: Water_Coller_0001:Character_04:RightFoot
+    100782: Water_Coller_0001:Character_04:RightForeArm
+    100784: Water_Coller_0001:Character_04:RightHand
+    100786: Water_Coller_0001:Character_04:RightLeg
+    100788: Water_Coller_0001:Character_04:RightShoulder
+    100790: Water_Coller_0001:Character_04:RightToeBase
+    100792: Water_Coller_0001:Character_04:RightUpLeg
+    100794: Water_Coller_0001:Character_04:Spine
+    100796: Water_Coller_0001:Character_04:Spine1
+    100798: Water_Coller_0001:Character_04:Spine2
+    100800: Water_Coller_0001:Charcii:Character:Head
+    100802: Water_Coller_0001:Charcii:Character:Hips
+    100804: Water_Coller_0001:Charcii:Character:LeftArm
+    100806: Water_Coller_0001:Charcii:Character:LeftFoot
+    100808: Water_Coller_0001:Charcii:Character:LeftForeArm
+    100810: Water_Coller_0001:Charcii:Character:LeftHand
+    100812: Water_Coller_0001:Charcii:Character:LeftLeg
+    100814: Water_Coller_0001:Charcii:Character:LeftShoulder
+    100816: Water_Coller_0001:Charcii:Character:LeftToeBase
+    100818: Water_Coller_0001:Charcii:Character:LeftUpLeg
+    100820: Water_Coller_0001:Charcii:Character:Neck
+    100822: Water_Coller_0001:Charcii:Character:pCube3
+    100824: Water_Coller_0001:Charcii:Character:QuickRigCharacter_Guides
+    100826: Water_Coller_0001:Charcii:Character:Reference
+    100828: Water_Coller_0001:Charcii:Character:RightArm
+    100830: Water_Coller_0001:Charcii:Character:RightFoot
+    100832: Water_Coller_0001:Charcii:Character:RightForeArm
+    100834: Water_Coller_0001:Charcii:Character:RightHand
+    100836: Water_Coller_0001:Charcii:Character:RightLeg
+    100838: Water_Coller_0001:Charcii:Character:RightShoulder
+    100840: Water_Coller_0001:Charcii:Character:RightToeBase
+    100842: Water_Coller_0001:Charcii:Character:RightUpLeg
+    100844: Water_Coller_0001:Charcii:Character:Spine
+    100846: Water_Coller_0001:Charcii:Character:Spine1
+    100848: Water_Coller_0001:Charcii:Character:Spine2
+    100850: Water_Coller_0001:Charcii:Character_04:Head
+    100852: Water_Coller_0001:Charcii:Character_04:Hips
+    100854: Water_Coller_0001:Charcii:Character_04:LeftArm
+    100856: Water_Coller_0001:Charcii:Character_04:LeftFoot
+    100858: Water_Coller_0001:Charcii:Character_04:LeftForeArm
+    100860: Water_Coller_0001:Charcii:Character_04:LeftHand
+    100862: Water_Coller_0001:Charcii:Character_04:LeftLeg
+    100864: Water_Coller_0001:Charcii:Character_04:LeftShoulder
+    100866: Water_Coller_0001:Charcii:Character_04:LeftToeBase
+    100868: Water_Coller_0001:Charcii:Character_04:LeftUpLeg
+    100870: Water_Coller_0001:Charcii:Character_04:Neck
+    100872: Water_Coller_0001:Charcii:Character_04:QuickRigCharacter_Guides
+    100874: Water_Coller_0001:Charcii:Character_04:Reference
+    100876: Water_Coller_0001:Charcii:Character_04:RightArm
+    100878: Water_Coller_0001:Charcii:Character_04:RightFoot
+    100880: Water_Coller_0001:Charcii:Character_04:RightForeArm
+    100882: Water_Coller_0001:Charcii:Character_04:RightHand
+    100884: Water_Coller_0001:Charcii:Character_04:RightLeg
+    100886: Water_Coller_0001:Charcii:Character_04:RightShoulder
+    100888: Water_Coller_0001:Charcii:Character_04:RightToeBase
+    100890: Water_Coller_0001:Charcii:Character_04:RightUpLeg
+    100892: Water_Coller_0001:Charcii:Character_04:Spine
+    100894: Water_Coller_0001:Charcii:Character_04:Spine1
+    100896: Water_Coller_0001:Charcii:Character_04:Spine2
+    100898: Water_Coller_0001:Head
+    100900: Water_Coller_0001:Hips
+    100902: Water_Coller_0001:joint1
+    100904: Water_Coller_0001:joint2
+    100906: Water_Coller_0001:joint3
+    100908: Water_Coller_0001:LeftArm
+    100910: Water_Coller_0001:LeftFoot
+    100912: Water_Coller_0001:LeftForeArm
+    100914: Water_Coller_0001:LeftHand
+    100916: Water_Coller_0001:LeftLeg
+    100918: Water_Coller_0001:LeftShoulder
+    100920: Water_Coller_0001:LeftToeBase
+    100922: Water_Coller_0001:LeftUpLeg
+    100924: Water_Coller_0001:Neck
+    100926: Water_Coller_0001:QuickRigCharacter_Guides
+    100928: Water_Coller_0001:Reference
+    100930: Water_Coller_0001:RightArm
+    100932: Water_Coller_0001:RightFoot
+    100934: Water_Coller_0001:RightForeArm
+    100936: Water_Coller_0001:RightHand
+    100938: Water_Coller_0001:RightLeg
+    100940: Water_Coller_0001:RightShoulder
+    100942: Water_Coller_0001:RightToeBase
+    100944: Water_Coller_0001:RightUpLeg
+    100946: Water_Coller_0001:Spine
+    100948: Water_Coller_0001:Spine1
+    100950: Water_Coller_0001:Water_Cooler_Convo:Character:Head
+    100952: Water_Coller_0001:Water_Cooler_Convo:Character:Hips
+    100954: Water_Coller_0001:Water_Cooler_Convo:Character:LeftArm
+    100956: Water_Coller_0001:Water_Cooler_Convo:Character:LeftFoot
+    100958: Water_Coller_0001:Water_Cooler_Convo:Character:LeftForeArm
+    100960: Water_Coller_0001:Water_Cooler_Convo:Character:LeftHand
+    100962: Water_Coller_0001:Water_Cooler_Convo:Character:LeftLeg
+    100964: Water_Coller_0001:Water_Cooler_Convo:Character:LeftShoulder
+    100966: Water_Coller_0001:Water_Cooler_Convo:Character:LeftToeBase
+    100968: Water_Coller_0001:Water_Cooler_Convo:Character:LeftUpLeg
+    100970: Water_Coller_0001:Water_Cooler_Convo:Character:Neck
+    100972: Water_Coller_0001:Water_Cooler_Convo:Character:QuickRigCharacter_Guides
+    100974: Water_Coller_0001:Water_Cooler_Convo:Character:Reference
+    100976: Water_Coller_0001:Water_Cooler_Convo:Character:RightArm
+    100978: Water_Coller_0001:Water_Cooler_Convo:Character:RightFoot
+    100980: Water_Coller_0001:Water_Cooler_Convo:Character:RightForeArm
+    100982: Water_Coller_0001:Water_Cooler_Convo:Character:RightHand
+    100984: Water_Coller_0001:Water_Cooler_Convo:Character:RightLeg
+    100986: Water_Coller_0001:Water_Cooler_Convo:Character:RightShoulder
+    100988: Water_Coller_0001:Water_Cooler_Convo:Character:RightToeBase
+    100990: Water_Coller_0001:Water_Cooler_Convo:Character:RightUpLeg
+    100992: Water_Coller_0001:Water_Cooler_Convo:Character:Spine
+    100994: Water_Coller_0001:Water_Cooler_Convo:Character:Spine1
+    100996: Water_Coller_0001:Water_Cooler_Convo:Character:Spine2
+    100998: Water_Coller_0001:Water_Cooler_Convo:Character_04:Head
+    101000: Water_Coller_0001:Water_Cooler_Convo:Character_04:Hips
+    101002: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftArm
+    101004: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftFoot
+    101006: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftForeArm
+    101008: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftHand
+    101010: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftLeg
+    101012: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftShoulder
+    101014: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftToeBase
+    101016: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftUpLeg
+    101018: Water_Coller_0001:Water_Cooler_Convo:Character_04:Neck
+    101020: Water_Coller_0001:Water_Cooler_Convo:Character_04:QuickRigCharacter_Guides
+    101022: Water_Coller_0001:Water_Cooler_Convo:Character_04:Reference
+    101024: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightArm
+    101026: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightFoot
+    101028: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightForeArm
+    101030: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightHand
+    101032: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightLeg
+    101034: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightShoulder
+    101036: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightToeBase
+    101038: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightUpLeg
+    101040: Water_Coller_0001:Water_Cooler_Convo:Character_04:Spine
+    101042: Water_Coller_0001:Water_Cooler_Convo:Character_04:Spine1
+    101044: Water_Coller_0001:Water_Cooler_Convo:Character_04:Spine2
+    101046: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Head
+    101048: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Hips
+    101050: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftArm
+    101052: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftFoot
+    101054: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftForeArm
+    101056: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftHand
+    101058: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftLeg
+    101060: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftShoulder
+    101062: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftToeBase
+    101064: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftUpLeg
+    101066: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Neck
+    101068: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:QuickRigCharacter_Guides
+    101070: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Reference
+    101072: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightArm
+    101074: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightFoot
+    101076: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightForeArm
+    101078: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightHand
+    101080: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightLeg
+    101082: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightShoulder
+    101084: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightToeBase
+    101086: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightUpLeg
+    101088: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Spine
+    101090: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Spine1
+    101092: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Spine2
+    101094: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Head
+    101096: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Hips
+    101098: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftArm
+    101100: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftFoot
+    101102: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftForeArm
+    101104: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftHand
+    101106: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftLeg
+    101108: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftShoulder
+    101110: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftToeBase
+    101112: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftUpLeg
+    101114: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Neck
+    101116: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:QuickRigCharacter_Guides
+    101118: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Reference
+    101120: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightArm
+    101122: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightFoot
+    101124: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightForeArm
+    101126: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightHand
+    101128: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightLeg
+    101130: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightShoulder
+    101132: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightToeBase
+    101134: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightUpLeg
+    101136: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Spine
+    101138: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Spine1
+    101140: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Spine2
+    101142: Water_Cooler_Convo:Character:Head
+    101144: Water_Cooler_Convo:Character:Hips
+    101146: Water_Cooler_Convo:Character:LeftArm
+    101148: Water_Cooler_Convo:Character:LeftFoot
+    101150: Water_Cooler_Convo:Character:LeftForeArm
+    101152: Water_Cooler_Convo:Character:LeftHand
+    101154: Water_Cooler_Convo:Character:LeftLeg
+    101156: Water_Cooler_Convo:Character:LeftShoulder
+    101158: Water_Cooler_Convo:Character:LeftToeBase
+    101160: Water_Cooler_Convo:Character:LeftUpLeg
+    101162: Water_Cooler_Convo:Character:Neck
+    101164: Water_Cooler_Convo:Character:QuickRigCharacter_Guides
+    101166: Water_Cooler_Convo:Character:Reference
+    101168: Water_Cooler_Convo:Character:RightArm
+    101170: Water_Cooler_Convo:Character:RightFoot
+    101172: Water_Cooler_Convo:Character:RightForeArm
+    101174: Water_Cooler_Convo:Character:RightHand
+    101176: Water_Cooler_Convo:Character:RightLeg
+    101178: Water_Cooler_Convo:Character:RightShoulder
+    101180: Water_Cooler_Convo:Character:RightToeBase
+    101182: Water_Cooler_Convo:Character:RightUpLeg
+    101184: Water_Cooler_Convo:Character:Spine
+    101186: Water_Cooler_Convo:Character:Spine1
+    101188: Water_Cooler_Convo:Character:Spine2
+    101190: Water_Cooler_Convo:Character_04:Head
+    101192: Water_Cooler_Convo:Character_04:Hips
+    101194: Water_Cooler_Convo:Character_04:LeftArm
+    101196: Water_Cooler_Convo:Character_04:LeftFoot
+    101198: Water_Cooler_Convo:Character_04:LeftForeArm
+    101200: Water_Cooler_Convo:Character_04:LeftHand
+    101202: Water_Cooler_Convo:Character_04:LeftLeg
+    101204: Water_Cooler_Convo:Character_04:LeftShoulder
+    101206: Water_Cooler_Convo:Character_04:LeftToeBase
+    101208: Water_Cooler_Convo:Character_04:LeftUpLeg
+    101210: Water_Cooler_Convo:Character_04:Neck
+    101212: Water_Cooler_Convo:Character_04:QuickRigCharacter_Guides
+    101214: Water_Cooler_Convo:Character_04:Reference
+    101216: Water_Cooler_Convo:Character_04:RightArm
+    101218: Water_Cooler_Convo:Character_04:RightFoot
+    101220: Water_Cooler_Convo:Character_04:RightForeArm
+    101222: Water_Cooler_Convo:Character_04:RightHand
+    101224: Water_Cooler_Convo:Character_04:RightLeg
+    101226: Water_Cooler_Convo:Character_04:RightShoulder
+    101228: Water_Cooler_Convo:Character_04:RightToeBase
+    101230: Water_Cooler_Convo:Character_04:RightUpLeg
+    101232: Water_Cooler_Convo:Character_04:Spine
+    101234: Water_Cooler_Convo:Character_04:Spine1
+    101236: Water_Cooler_Convo:Character_04:Spine2
+    101238: Water_Cooler_Convo:Charcii:Character:Head
+    101240: Water_Cooler_Convo:Charcii:Character:Hips
+    101242: Water_Cooler_Convo:Charcii:Character:LeftArm
+    101244: Water_Cooler_Convo:Charcii:Character:LeftFoot
+    101246: Water_Cooler_Convo:Charcii:Character:LeftForeArm
+    101248: Water_Cooler_Convo:Charcii:Character:LeftHand
+    101250: Water_Cooler_Convo:Charcii:Character:LeftLeg
+    101252: Water_Cooler_Convo:Charcii:Character:LeftShoulder
+    101254: Water_Cooler_Convo:Charcii:Character:LeftToeBase
+    101256: Water_Cooler_Convo:Charcii:Character:LeftUpLeg
+    101258: Water_Cooler_Convo:Charcii:Character:Neck
+    101260: Water_Cooler_Convo:Charcii:Character:QuickRigCharacter_Guides
+    101262: Water_Cooler_Convo:Charcii:Character:Reference
+    101264: Water_Cooler_Convo:Charcii:Character:RightArm
+    101266: Water_Cooler_Convo:Charcii:Character:RightFoot
+    101268: Water_Cooler_Convo:Charcii:Character:RightForeArm
+    101270: Water_Cooler_Convo:Charcii:Character:RightHand
+    101272: Water_Cooler_Convo:Charcii:Character:RightLeg
+    101274: Water_Cooler_Convo:Charcii:Character:RightShoulder
+    101276: Water_Cooler_Convo:Charcii:Character:RightToeBase
+    101278: Water_Cooler_Convo:Charcii:Character:RightUpLeg
+    101280: Water_Cooler_Convo:Charcii:Character:Spine
+    101282: Water_Cooler_Convo:Charcii:Character:Spine1
+    101284: Water_Cooler_Convo:Charcii:Character:Spine2
+    101286: Water_Cooler_Convo:Charcii:Character_04:Head
+    101288: Water_Cooler_Convo:Charcii:Character_04:Hips
+    101290: Water_Cooler_Convo:Charcii:Character_04:LeftArm
+    101292: Water_Cooler_Convo:Charcii:Character_04:LeftFoot
+    101294: Water_Cooler_Convo:Charcii:Character_04:LeftForeArm
+    101296: Water_Cooler_Convo:Charcii:Character_04:LeftHand
+    101298: Water_Cooler_Convo:Charcii:Character_04:LeftLeg
+    101300: Water_Cooler_Convo:Charcii:Character_04:LeftShoulder
+    101302: Water_Cooler_Convo:Charcii:Character_04:LeftToeBase
+    101304: Water_Cooler_Convo:Charcii:Character_04:LeftUpLeg
+    101306: Water_Cooler_Convo:Charcii:Character_04:Neck
+    101308: Water_Cooler_Convo:Charcii:Character_04:QuickRigCharacter_Guides
+    101310: Water_Cooler_Convo:Charcii:Character_04:Reference
+    101312: Water_Cooler_Convo:Charcii:Character_04:RightArm
+    101314: Water_Cooler_Convo:Charcii:Character_04:RightFoot
+    101316: Water_Cooler_Convo:Charcii:Character_04:RightForeArm
+    101318: Water_Cooler_Convo:Charcii:Character_04:RightHand
+    101320: Water_Cooler_Convo:Charcii:Character_04:RightLeg
+    101322: Water_Cooler_Convo:Charcii:Character_04:RightShoulder
+    101324: Water_Cooler_Convo:Charcii:Character_04:RightToeBase
+    101326: Water_Cooler_Convo:Charcii:Character_04:RightUpLeg
+    101328: Water_Cooler_Convo:Charcii:Character_04:Spine
+    101330: Water_Cooler_Convo:Charcii:Character_04:Spine1
+    101332: Water_Cooler_Convo:Charcii:Character_04:Spine2
+    101334: Water_Cooler_Convo:group13
+    400000: Character:Head
+    400002: Character:Hips
+    400004: Character:LeftArm
+    400006: Character:LeftFoot
+    400008: Character:LeftForeArm
+    400010: Character:LeftHand
+    400012: Character:LeftLeg
+    400014: Character:LeftShoulder
+    400016: Character:LeftToeBase
+    400018: Character:LeftUpLeg
+    400020: Character:Neck
+    400022: Character:pCube4
+    400024: Character:pCube5
+    400026: Character:QuickRigCharacter_Guides
+    400028: Character:Reference
+    400030: Character:RightArm
+    400032: Character:RightFoot
+    400034: Character:RightForeArm
+    400036: Character:RightHand
+    400038: Character:RightLeg
+    400040: Character:RightShoulder
+    400042: Character:RightToeBase
+    400044: Character:RightUpLeg
+    400046: Character:Spine
+    400048: Character:Spine1
+    400050: Character:Spine2
+    400052: Character:transform1
+    400054: Character:transform2
+    400056: Character:transform3
+    400058: Character_04:Head
+    400060: Character_04:Hips
+    400062: Character_04:LeftArm
+    400064: Character_04:LeftFoot
+    400066: Character_04:LeftForeArm
+    400068: Character_04:LeftHand
+    400070: Character_04:LeftLeg
+    400072: Character_04:LeftShoulder
+    400074: Character_04:LeftToeBase
+    400076: Character_04:LeftUpLeg
+    400078: Character_04:Neck
+    400080: Character_04:QuickRigCharacter_Guides
+    400082: Character_04:Reference
+    400084: Character_04:RightArm
+    400086: Character_04:RightFoot
+    400088: Character_04:RightForeArm
+    400090: Character_04:RightHand
+    400092: Character_04:RightLeg
+    400094: Character_04:RightShoulder
+    400096: Character_04:RightToeBase
+    400098: Character_04:RightUpLeg
+    400100: Character_04:Spine
+    400102: Character_04:Spine1
+    400104: Character_04:Spine2
+    400106: Charcii:Character:Head
+    400108: Charcii:Character:Hips
+    400110: Charcii:Character:LeftArm
+    400112: Charcii:Character:LeftFoot
+    400114: Charcii:Character:LeftForeArm
+    400116: Charcii:Character:LeftHand
+    400118: Charcii:Character:LeftLeg
+    400120: Charcii:Character:LeftShoulder
+    400122: Charcii:Character:LeftToeBase
+    400124: Charcii:Character:LeftUpLeg
+    400126: Charcii:Character:Neck
+    400128: Charcii:Character:pCube3
+    400130: Charcii:Character:QuickRigCharacter_Guides
+    400132: Charcii:Character:Reference
+    400134: Charcii:Character:RightArm
+    400136: Charcii:Character:RightFoot
+    400138: Charcii:Character:RightForeArm
+    400140: Charcii:Character:RightHand
+    400142: Charcii:Character:RightLeg
+    400144: Charcii:Character:RightShoulder
+    400146: Charcii:Character:RightToeBase
+    400148: Charcii:Character:RightUpLeg
+    400150: Charcii:Character:Spine
+    400152: Charcii:Character:Spine1
+    400154: Charcii:Character:Spine2
+    400156: Charcii:Character_04:Head
+    400158: Charcii:Character_04:Hips
+    400160: Charcii:Character_04:LeftArm
+    400162: Charcii:Character_04:LeftFoot
+    400164: Charcii:Character_04:LeftForeArm
+    400166: Charcii:Character_04:LeftHand
+    400168: Charcii:Character_04:LeftLeg
+    400170: Charcii:Character_04:LeftShoulder
+    400172: Charcii:Character_04:LeftToeBase
+    400174: Charcii:Character_04:LeftUpLeg
+    400176: Charcii:Character_04:Neck
+    400178: Charcii:Character_04:QuickRigCharacter_Guides
+    400180: Charcii:Character_04:Reference
+    400182: Charcii:Character_04:RightArm
+    400184: Charcii:Character_04:RightFoot
+    400186: Charcii:Character_04:RightForeArm
+    400188: Charcii:Character_04:RightHand
+    400190: Charcii:Character_04:RightLeg
+    400192: Charcii:Character_04:RightShoulder
+    400194: Charcii:Character_04:RightToeBase
+    400196: Charcii:Character_04:RightUpLeg
+    400198: Charcii:Character_04:Spine
+    400200: Charcii:Character_04:Spine1
+    400202: Charcii:Character_04:Spine2
+    400204: Cubicle
+    400206: Cubicle 1
+    400208: Cubicle1
+    400210: Cubicle1 1
+    400212: Cubicle2
+    400214: Cubicle2 1
+    400216: Cubicle3
+    400218: Cubicle3 1
+    400220: Cubicle4
+    400222: Cubicle4 1
+    400224: Cubicle4 2
+    400226: Cubicle4 3
+    400228: Cubicle4 4
+    400230: Cubicle5
+    400232: Cubicle5 1
+    400234: Cubicle5 2
+    400236: Cubicle5 3
+    400238: Cubicle5 4
+    400240: Cubicle6
+    400242: Cubicle6 1
+    400244: Cubicle6 2
+    400246: Cubicle6 3
+    400248: Cubicle6 4
+    400250: Cubicle7
+    400252: Cubicle7 1
+    400254: Cubicle7 2
+    400256: Cubicle7 3
+    400258: Cubicle7 4
+    400260: group1
+    400262: group10
+    400264: group10 1
+    400266: group10 10
+    400268: group10 11
+    400270: group10 12
+    400272: group10 13
+    400274: group10 14
+    400276: group10 15
+    400278: group10 16
+    400280: group10 17
+    400282: group10 18
+    400284: group10 19
+    400286: group10 2
+    400288: group10 20
+    400290: group10 21
+    400292: group10 22
+    400294: group10 23
+    400296: group10 24
+    400298: group10 25
+    400300: group10 26
+    400302: group10 27
+    400304: group10 3
+    400306: group10 4
+    400308: group10 5
+    400310: group10 6
+    400312: group10 7
+    400314: group10 8
+    400316: group10 9
+    400318: group11
+    400320: group11 1
+    400322: group11 10
+    400324: group11 11
+    400326: group11 12
+    400328: group11 13
+    400330: group11 14
+    400332: group11 15
+    400334: group11 16
+    400336: group11 17
+    400338: group11 18
+    400340: group11 19
+    400342: group11 2
+    400344: group11 20
+    400346: group11 21
+    400348: group11 22
+    400350: group11 23
+    400352: group11 24
+    400354: group11 25
+    400356: group11 26
+    400358: group11 27
+    400360: group11 3
+    400362: group11 4
+    400364: group11 5
+    400366: group11 6
+    400368: group11 7
+    400370: group11 8
+    400372: group11 9
+    400374: group12
+    400376: group12 1
+    400378: group13
+    400380: group13 1
+    400382: group14
+    400384: group15
+    400386: group16
+    400388: group17
+    400390: group18
+    400392: group2
+    400394: group2 1
+    400396: group2 10
+    400398: group2 11
+    400400: group2 12
+    400402: group2 13
+    400404: group2 14
+    400406: group2 15
+    400408: group2 16
+    400410: group2 17
+    400412: group2 18
+    400414: group2 19
+    400416: group2 2
+    400418: group2 20
+    400420: group2 21
+    400422: group2 22
+    400424: group2 23
+    400426: group2 24
+    400428: group2 25
+    400430: group2 26
+    400432: group2 27
+    400434: group2 3
+    400436: group2 4
+    400438: group2 5
+    400440: group2 6
+    400442: group2 7
+    400444: group2 8
+    400446: group2 9
+    400448: group6
+    400450: group6 1
+    400452: group6 10
+    400454: group6 11
+    400456: group6 12
+    400458: group6 13
+    400460: group6 14
+    400462: group6 15
+    400464: group6 16
+    400466: group6 17
+    400468: group6 18
+    400470: group6 19
+    400472: group6 2
+    400474: group6 20
+    400476: group6 21
+    400478: group6 22
+    400480: group6 23
+    400482: group6 24
+    400484: group6 25
+    400486: group6 26
+    400488: group6 27
+    400490: group6 3
+    400492: group6 4
+    400494: group6 5
+    400496: group6 6
+    400498: group6 7
+    400500: group6 8
+    400502: group6 9
+    400504: group7
+    400506: group7 1
+    400508: group7 10
+    400510: group7 11
+    400512: group7 12
+    400514: group7 13
+    400516: group7 14
+    400518: group7 15
+    400520: group7 16
+    400522: group7 17
+    400524: group7 18
+    400526: group7 19
+    400528: group7 2
+    400530: group7 20
+    400532: group7 21
+    400534: group7 22
+    400536: group7 23
+    400538: group7 24
+    400540: group7 25
+    400542: group7 26
+    400544: group7 27
+    400546: group7 3
+    400548: group7 4
+    400550: group7 5
+    400552: group7 6
+    400554: group7 7
+    400556: group7 8
+    400558: group7 9
+    400560: group8
+    400562: group8 1
+    400564: group8 10
+    400566: group8 11
+    400568: group8 12
+    400570: group8 13
+    400572: group8 14
+    400574: group8 15
+    400576: group8 16
+    400578: group8 17
+    400580: group8 18
+    400582: group8 19
+    400584: group8 2
+    400586: group8 20
+    400588: group8 21
+    400590: group8 22
+    400592: group8 23
+    400594: group8 24
+    400596: group8 25
+    400598: group8 26
+    400600: group8 27
+    400602: group8 3
+    400604: group8 4
+    400606: group8 5
+    400608: group8 6
+    400610: group8 7
+    400612: group8 8
+    400614: group8 9
+    400616: Head
+    400618: Hips
+    400620: joint1
+    400622: joint2
+    400624: joint3
+    400626: LeftArm
+    400628: LeftFoot
+    400630: LeftForeArm
+    400632: LeftHand
+    400634: LeftLeg
+    400636: LeftShoulder
+    400638: LeftToeBase
+    400640: LeftUpLeg
+    400642: Neck
+    400644: pCube12
+    400646: pCube13
+    400648: pCube14
+    400650: pPlane1
+    400652: pPlane2
+    400654: pPlane3
+    400656: pPlane4
+    400658: pPlane5
+    400660: pPlane6
+    400662: QuickRigCharacter_Guides
+    400664: Reference
+    400666: RightArm
+    400668: RightFoot
+    400670: RightForeArm
+    400672: RightHand
+    400674: RightLeg
+    400676: RightShoulder
+    400678: RightToeBase
+    400680: RightUpLeg
+    400682: //RootNode
+    400684: Spine
+    400686: Spine1
+    400688: transform1
+    400690: transform2
+    400692: typeMesh2
+    400694: Water_Coller_0001:Character:Head
+    400696: Water_Coller_0001:Character:Hips
+    400698: Water_Coller_0001:Character:LeftArm
+    400700: Water_Coller_0001:Character:LeftFoot
+    400702: Water_Coller_0001:Character:LeftForeArm
+    400704: Water_Coller_0001:Character:LeftHand
+    400706: Water_Coller_0001:Character:LeftLeg
+    400708: Water_Coller_0001:Character:LeftShoulder
+    400710: Water_Coller_0001:Character:LeftToeBase
+    400712: Water_Coller_0001:Character:LeftUpLeg
+    400714: Water_Coller_0001:Character:Neck
+    400716: Water_Coller_0001:Character:pCube4
+    400718: Water_Coller_0001:Character:pCube5
+    400720: Water_Coller_0001:Character:QuickRigCharacter_Guides
+    400722: Water_Coller_0001:Character:Reference
+    400724: Water_Coller_0001:Character:RightArm
+    400726: Water_Coller_0001:Character:RightFoot
+    400728: Water_Coller_0001:Character:RightForeArm
+    400730: Water_Coller_0001:Character:RightHand
+    400732: Water_Coller_0001:Character:RightLeg
+    400734: Water_Coller_0001:Character:RightShoulder
+    400736: Water_Coller_0001:Character:RightToeBase
+    400738: Water_Coller_0001:Character:RightUpLeg
+    400740: Water_Coller_0001:Character:Spine
+    400742: Water_Coller_0001:Character:Spine1
+    400744: Water_Coller_0001:Character:Spine2
+    400746: Water_Coller_0001:Character:transform1
+    400748: Water_Coller_0001:Character:transform2
+    400750: Water_Coller_0001:Character:transform3
+    400752: Water_Coller_0001:Character_04:Head
+    400754: Water_Coller_0001:Character_04:Hips
+    400756: Water_Coller_0001:Character_04:LeftArm
+    400758: Water_Coller_0001:Character_04:LeftFoot
+    400760: Water_Coller_0001:Character_04:LeftForeArm
+    400762: Water_Coller_0001:Character_04:LeftHand
+    400764: Water_Coller_0001:Character_04:LeftLeg
+    400766: Water_Coller_0001:Character_04:LeftShoulder
+    400768: Water_Coller_0001:Character_04:LeftToeBase
+    400770: Water_Coller_0001:Character_04:LeftUpLeg
+    400772: Water_Coller_0001:Character_04:Neck
+    400774: Water_Coller_0001:Character_04:QuickRigCharacter_Guides
+    400776: Water_Coller_0001:Character_04:Reference
+    400778: Water_Coller_0001:Character_04:RightArm
+    400780: Water_Coller_0001:Character_04:RightFoot
+    400782: Water_Coller_0001:Character_04:RightForeArm
+    400784: Water_Coller_0001:Character_04:RightHand
+    400786: Water_Coller_0001:Character_04:RightLeg
+    400788: Water_Coller_0001:Character_04:RightShoulder
+    400790: Water_Coller_0001:Character_04:RightToeBase
+    400792: Water_Coller_0001:Character_04:RightUpLeg
+    400794: Water_Coller_0001:Character_04:Spine
+    400796: Water_Coller_0001:Character_04:Spine1
+    400798: Water_Coller_0001:Character_04:Spine2
+    400800: Water_Coller_0001:Charcii:Character:Head
+    400802: Water_Coller_0001:Charcii:Character:Hips
+    400804: Water_Coller_0001:Charcii:Character:LeftArm
+    400806: Water_Coller_0001:Charcii:Character:LeftFoot
+    400808: Water_Coller_0001:Charcii:Character:LeftForeArm
+    400810: Water_Coller_0001:Charcii:Character:LeftHand
+    400812: Water_Coller_0001:Charcii:Character:LeftLeg
+    400814: Water_Coller_0001:Charcii:Character:LeftShoulder
+    400816: Water_Coller_0001:Charcii:Character:LeftToeBase
+    400818: Water_Coller_0001:Charcii:Character:LeftUpLeg
+    400820: Water_Coller_0001:Charcii:Character:Neck
+    400822: Water_Coller_0001:Charcii:Character:pCube3
+    400824: Water_Coller_0001:Charcii:Character:QuickRigCharacter_Guides
+    400826: Water_Coller_0001:Charcii:Character:Reference
+    400828: Water_Coller_0001:Charcii:Character:RightArm
+    400830: Water_Coller_0001:Charcii:Character:RightFoot
+    400832: Water_Coller_0001:Charcii:Character:RightForeArm
+    400834: Water_Coller_0001:Charcii:Character:RightHand
+    400836: Water_Coller_0001:Charcii:Character:RightLeg
+    400838: Water_Coller_0001:Charcii:Character:RightShoulder
+    400840: Water_Coller_0001:Charcii:Character:RightToeBase
+    400842: Water_Coller_0001:Charcii:Character:RightUpLeg
+    400844: Water_Coller_0001:Charcii:Character:Spine
+    400846: Water_Coller_0001:Charcii:Character:Spine1
+    400848: Water_Coller_0001:Charcii:Character:Spine2
+    400850: Water_Coller_0001:Charcii:Character_04:Head
+    400852: Water_Coller_0001:Charcii:Character_04:Hips
+    400854: Water_Coller_0001:Charcii:Character_04:LeftArm
+    400856: Water_Coller_0001:Charcii:Character_04:LeftFoot
+    400858: Water_Coller_0001:Charcii:Character_04:LeftForeArm
+    400860: Water_Coller_0001:Charcii:Character_04:LeftHand
+    400862: Water_Coller_0001:Charcii:Character_04:LeftLeg
+    400864: Water_Coller_0001:Charcii:Character_04:LeftShoulder
+    400866: Water_Coller_0001:Charcii:Character_04:LeftToeBase
+    400868: Water_Coller_0001:Charcii:Character_04:LeftUpLeg
+    400870: Water_Coller_0001:Charcii:Character_04:Neck
+    400872: Water_Coller_0001:Charcii:Character_04:QuickRigCharacter_Guides
+    400874: Water_Coller_0001:Charcii:Character_04:Reference
+    400876: Water_Coller_0001:Charcii:Character_04:RightArm
+    400878: Water_Coller_0001:Charcii:Character_04:RightFoot
+    400880: Water_Coller_0001:Charcii:Character_04:RightForeArm
+    400882: Water_Coller_0001:Charcii:Character_04:RightHand
+    400884: Water_Coller_0001:Charcii:Character_04:RightLeg
+    400886: Water_Coller_0001:Charcii:Character_04:RightShoulder
+    400888: Water_Coller_0001:Charcii:Character_04:RightToeBase
+    400890: Water_Coller_0001:Charcii:Character_04:RightUpLeg
+    400892: Water_Coller_0001:Charcii:Character_04:Spine
+    400894: Water_Coller_0001:Charcii:Character_04:Spine1
+    400896: Water_Coller_0001:Charcii:Character_04:Spine2
+    400898: Water_Coller_0001:Head
+    400900: Water_Coller_0001:Hips
+    400902: Water_Coller_0001:joint1
+    400904: Water_Coller_0001:joint2
+    400906: Water_Coller_0001:joint3
+    400908: Water_Coller_0001:LeftArm
+    400910: Water_Coller_0001:LeftFoot
+    400912: Water_Coller_0001:LeftForeArm
+    400914: Water_Coller_0001:LeftHand
+    400916: Water_Coller_0001:LeftLeg
+    400918: Water_Coller_0001:LeftShoulder
+    400920: Water_Coller_0001:LeftToeBase
+    400922: Water_Coller_0001:LeftUpLeg
+    400924: Water_Coller_0001:Neck
+    400926: Water_Coller_0001:QuickRigCharacter_Guides
+    400928: Water_Coller_0001:Reference
+    400930: Water_Coller_0001:RightArm
+    400932: Water_Coller_0001:RightFoot
+    400934: Water_Coller_0001:RightForeArm
+    400936: Water_Coller_0001:RightHand
+    400938: Water_Coller_0001:RightLeg
+    400940: Water_Coller_0001:RightShoulder
+    400942: Water_Coller_0001:RightToeBase
+    400944: Water_Coller_0001:RightUpLeg
+    400946: Water_Coller_0001:Spine
+    400948: Water_Coller_0001:Spine1
+    400950: Water_Coller_0001:Water_Cooler_Convo:Character:Head
+    400952: Water_Coller_0001:Water_Cooler_Convo:Character:Hips
+    400954: Water_Coller_0001:Water_Cooler_Convo:Character:LeftArm
+    400956: Water_Coller_0001:Water_Cooler_Convo:Character:LeftFoot
+    400958: Water_Coller_0001:Water_Cooler_Convo:Character:LeftForeArm
+    400960: Water_Coller_0001:Water_Cooler_Convo:Character:LeftHand
+    400962: Water_Coller_0001:Water_Cooler_Convo:Character:LeftLeg
+    400964: Water_Coller_0001:Water_Cooler_Convo:Character:LeftShoulder
+    400966: Water_Coller_0001:Water_Cooler_Convo:Character:LeftToeBase
+    400968: Water_Coller_0001:Water_Cooler_Convo:Character:LeftUpLeg
+    400970: Water_Coller_0001:Water_Cooler_Convo:Character:Neck
+    400972: Water_Coller_0001:Water_Cooler_Convo:Character:QuickRigCharacter_Guides
+    400974: Water_Coller_0001:Water_Cooler_Convo:Character:Reference
+    400976: Water_Coller_0001:Water_Cooler_Convo:Character:RightArm
+    400978: Water_Coller_0001:Water_Cooler_Convo:Character:RightFoot
+    400980: Water_Coller_0001:Water_Cooler_Convo:Character:RightForeArm
+    400982: Water_Coller_0001:Water_Cooler_Convo:Character:RightHand
+    400984: Water_Coller_0001:Water_Cooler_Convo:Character:RightLeg
+    400986: Water_Coller_0001:Water_Cooler_Convo:Character:RightShoulder
+    400988: Water_Coller_0001:Water_Cooler_Convo:Character:RightToeBase
+    400990: Water_Coller_0001:Water_Cooler_Convo:Character:RightUpLeg
+    400992: Water_Coller_0001:Water_Cooler_Convo:Character:Spine
+    400994: Water_Coller_0001:Water_Cooler_Convo:Character:Spine1
+    400996: Water_Coller_0001:Water_Cooler_Convo:Character:Spine2
+    400998: Water_Coller_0001:Water_Cooler_Convo:Character_04:Head
+    401000: Water_Coller_0001:Water_Cooler_Convo:Character_04:Hips
+    401002: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftArm
+    401004: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftFoot
+    401006: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftForeArm
+    401008: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftHand
+    401010: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftLeg
+    401012: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftShoulder
+    401014: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftToeBase
+    401016: Water_Coller_0001:Water_Cooler_Convo:Character_04:LeftUpLeg
+    401018: Water_Coller_0001:Water_Cooler_Convo:Character_04:Neck
+    401020: Water_Coller_0001:Water_Cooler_Convo:Character_04:QuickRigCharacter_Guides
+    401022: Water_Coller_0001:Water_Cooler_Convo:Character_04:Reference
+    401024: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightArm
+    401026: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightFoot
+    401028: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightForeArm
+    401030: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightHand
+    401032: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightLeg
+    401034: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightShoulder
+    401036: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightToeBase
+    401038: Water_Coller_0001:Water_Cooler_Convo:Character_04:RightUpLeg
+    401040: Water_Coller_0001:Water_Cooler_Convo:Character_04:Spine
+    401042: Water_Coller_0001:Water_Cooler_Convo:Character_04:Spine1
+    401044: Water_Coller_0001:Water_Cooler_Convo:Character_04:Spine2
+    401046: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Head
+    401048: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Hips
+    401050: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftArm
+    401052: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftFoot
+    401054: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftForeArm
+    401056: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftHand
+    401058: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftLeg
+    401060: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftShoulder
+    401062: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftToeBase
+    401064: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:LeftUpLeg
+    401066: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Neck
+    401068: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:QuickRigCharacter_Guides
+    401070: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Reference
+    401072: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightArm
+    401074: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightFoot
+    401076: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightForeArm
+    401078: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightHand
+    401080: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightLeg
+    401082: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightShoulder
+    401084: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightToeBase
+    401086: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:RightUpLeg
+    401088: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Spine
+    401090: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Spine1
+    401092: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character:Spine2
+    401094: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Head
+    401096: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Hips
+    401098: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftArm
+    401100: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftFoot
+    401102: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftForeArm
+    401104: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftHand
+    401106: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftLeg
+    401108: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftShoulder
+    401110: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftToeBase
+    401112: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:LeftUpLeg
+    401114: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Neck
+    401116: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:QuickRigCharacter_Guides
+    401118: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Reference
+    401120: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightArm
+    401122: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightFoot
+    401124: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightForeArm
+    401126: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightHand
+    401128: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightLeg
+    401130: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightShoulder
+    401132: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightToeBase
+    401134: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:RightUpLeg
+    401136: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Spine
+    401138: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Spine1
+    401140: Water_Coller_0001:Water_Cooler_Convo:Charcii:Character_04:Spine2
+    401142: Water_Cooler_Convo:Character:Head
+    401144: Water_Cooler_Convo:Character:Hips
+    401146: Water_Cooler_Convo:Character:LeftArm
+    401148: Water_Cooler_Convo:Character:LeftFoot
+    401150: Water_Cooler_Convo:Character:LeftForeArm
+    401152: Water_Cooler_Convo:Character:LeftHand
+    401154: Water_Cooler_Convo:Character:LeftLeg
+    401156: Water_Cooler_Convo:Character:LeftShoulder
+    401158: Water_Cooler_Convo:Character:LeftToeBase
+    401160: Water_Cooler_Convo:Character:LeftUpLeg
+    401162: Water_Cooler_Convo:Character:Neck
+    401164: Water_Cooler_Convo:Character:QuickRigCharacter_Guides
+    401166: Water_Cooler_Convo:Character:Reference
+    401168: Water_Cooler_Convo:Character:RightArm
+    401170: Water_Cooler_Convo:Character:RightFoot
+    401172: Water_Cooler_Convo:Character:RightForeArm
+    401174: Water_Cooler_Convo:Character:RightHand
+    401176: Water_Cooler_Convo:Character:RightLeg
+    401178: Water_Cooler_Convo:Character:RightShoulder
+    401180: Water_Cooler_Convo:Character:RightToeBase
+    401182: Water_Cooler_Convo:Character:RightUpLeg
+    401184: Water_Cooler_Convo:Character:Spine
+    401186: Water_Cooler_Convo:Character:Spine1
+    401188: Water_Cooler_Convo:Character:Spine2
+    401190: Water_Cooler_Convo:Character_04:Head
+    401192: Water_Cooler_Convo:Character_04:Hips
+    401194: Water_Cooler_Convo:Character_04:LeftArm
+    401196: Water_Cooler_Convo:Character_04:LeftFoot
+    401198: Water_Cooler_Convo:Character_04:LeftForeArm
+    401200: Water_Cooler_Convo:Character_04:LeftHand
+    401202: Water_Cooler_Convo:Character_04:LeftLeg
+    401204: Water_Cooler_Convo:Character_04:LeftShoulder
+    401206: Water_Cooler_Convo:Character_04:LeftToeBase
+    401208: Water_Cooler_Convo:Character_04:LeftUpLeg
+    401210: Water_Cooler_Convo:Character_04:Neck
+    401212: Water_Cooler_Convo:Character_04:QuickRigCharacter_Guides
+    401214: Water_Cooler_Convo:Character_04:Reference
+    401216: Water_Cooler_Convo:Character_04:RightArm
+    401218: Water_Cooler_Convo:Character_04:RightFoot
+    401220: Water_Cooler_Convo:Character_04:RightForeArm
+    401222: Water_Cooler_Convo:Character_04:RightHand
+    401224: Water_Cooler_Convo:Character_04:RightLeg
+    401226: Water_Cooler_Convo:Character_04:RightShoulder
+    401228: Water_Cooler_Convo:Character_04:RightToeBase
+    401230: Water_Cooler_Convo:Character_04:RightUpLeg
+    401232: Water_Cooler_Convo:Character_04:Spine
+    401234: Water_Cooler_Convo:Character_04:Spine1
+    401236: Water_Cooler_Convo:Character_04:Spine2
+    401238: Water_Cooler_Convo:Charcii:Character:Head
+    401240: Water_Cooler_Convo:Charcii:Character:Hips
+    401242: Water_Cooler_Convo:Charcii:Character:LeftArm
+    401244: Water_Cooler_Convo:Charcii:Character:LeftFoot
+    401246: Water_Cooler_Convo:Charcii:Character:LeftForeArm
+    401248: Water_Cooler_Convo:Charcii:Character:LeftHand
+    401250: Water_Cooler_Convo:Charcii:Character:LeftLeg
+    401252: Water_Cooler_Convo:Charcii:Character:LeftShoulder
+    401254: Water_Cooler_Convo:Charcii:Character:LeftToeBase
+    401256: Water_Cooler_Convo:Charcii:Character:LeftUpLeg
+    401258: Water_Cooler_Convo:Charcii:Character:Neck
+    401260: Water_Cooler_Convo:Charcii:Character:QuickRigCharacter_Guides
+    401262: Water_Cooler_Convo:Charcii:Character:Reference
+    401264: Water_Cooler_Convo:Charcii:Character:RightArm
+    401266: Water_Cooler_Convo:Charcii:Character:RightFoot
+    401268: Water_Cooler_Convo:Charcii:Character:RightForeArm
+    401270: Water_Cooler_Convo:Charcii:Character:RightHand
+    401272: Water_Cooler_Convo:Charcii:Character:RightLeg
+    401274: Water_Cooler_Convo:Charcii:Character:RightShoulder
+    401276: Water_Cooler_Convo:Charcii:Character:RightToeBase
+    401278: Water_Cooler_Convo:Charcii:Character:RightUpLeg
+    401280: Water_Cooler_Convo:Charcii:Character:Spine
+    401282: Water_Cooler_Convo:Charcii:Character:Spine1
+    401284: Water_Cooler_Convo:Charcii:Character:Spine2
+    401286: Water_Cooler_Convo:Charcii:Character_04:Head
+    401288: Water_Cooler_Convo:Charcii:Character_04:Hips
+    401290: Water_Cooler_Convo:Charcii:Character_04:LeftArm
+    401292: Water_Cooler_Convo:Charcii:Character_04:LeftFoot
+    401294: Water_Cooler_Convo:Charcii:Character_04:LeftForeArm
+    401296: Water_Cooler_Convo:Charcii:Character_04:LeftHand
+    401298: Water_Cooler_Convo:Charcii:Character_04:LeftLeg
+    401300: Water_Cooler_Convo:Charcii:Character_04:LeftShoulder
+    401302: Water_Cooler_Convo:Charcii:Character_04:LeftToeBase
+    401304: Water_Cooler_Convo:Charcii:Character_04:LeftUpLeg
+    401306: Water_Cooler_Convo:Charcii:Character_04:Neck
+    401308: Water_Cooler_Convo:Charcii:Character_04:QuickRigCharacter_Guides
+    401310: Water_Cooler_Convo:Charcii:Character_04:Reference
+    401312: Water_Cooler_Convo:Charcii:Character_04:RightArm
+    401314: Water_Cooler_Convo:Charcii:Character_04:RightFoot
+    401316: Water_Cooler_Convo:Charcii:Character_04:RightForeArm
+    401318: Water_Cooler_Convo:Charcii:Character_04:RightHand
+    401320: Water_Cooler_Convo:Charcii:Character_04:RightLeg
+    401322: Water_Cooler_Convo:Charcii:Character_04:RightShoulder
+    401324: Water_Cooler_Convo:Charcii:Character_04:RightToeBase
+    401326: Water_Cooler_Convo:Charcii:Character_04:RightUpLeg
+    401328: Water_Cooler_Convo:Charcii:Character_04:Spine
+    401330: Water_Cooler_Convo:Charcii:Character_04:Spine1
+    401332: Water_Cooler_Convo:Charcii:Character_04:Spine2
+    401334: Water_Cooler_Convo:group13
+    2100000: lambert1
+    2100002: lambert11
+    2300000: pCube12
+    2300002: pCube13
+    2300004: pCube14
+    2300006: pPlane1
+    2300008: pPlane2
+    2300010: pPlane3
+    2300012: pPlane4
+    2300014: pPlane5
+    2300016: pPlane6
+    2300018: typeMesh2
+    3300000: pCube12
+    3300002: pCube13
+    3300004: pCube14
+    3300006: pPlane1
+    3300008: pPlane2
+    3300010: pPlane3
+    3300012: pPlane4
+    3300014: pPlane5
+    3300016: pPlane6
+    3300018: typeMesh2
+    4300000: pPlane1
+    4300002: typeMesh2
+    4300004: pPlane2
+    4300006: pCube12
+    4300008: pCube13
+    4300010: pCube14
+    4300012: pPlane3
+    4300014: pPlane4
+    4300016: pPlane5
+    4300018: pPlane6
+    7400000: Room
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

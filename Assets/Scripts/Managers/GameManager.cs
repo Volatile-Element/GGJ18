@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        OfficeGenerator.Instance.Generate(5, 5);
+        OfficeGenerator.Instance.Generate(4, 7);
 
         Replace();
 
@@ -51,17 +51,16 @@ public class GameManager : MonoBehaviour
         var chairPrefab = Resources.Load<GameObject>("CubicalFurniture/Chair");
         new RandomPicker<ChairSpawnPoint>(chairPrefab, 50, true).CallMe();
 
-        var peoplePrefab = Resources.Load<GameObject>("Encounters/People");
-        new RandomPicker<PeopleSpawner>(peoplePrefab, 0).CallMe();
+        var waterCoolerPrefab = Resources.Load<GameObject>("Encounters/Water Cooler Encounter");
+        new RandomPicker<ExternalEncounterSpawnPoint>(waterCoolerPrefab, 6).CallMe();
 
-        var waterCoolerPrefab = Resources.Load<GameObject>("Encounters/Water Cooler");
-        new RandomPicker<ExternalEncounterSpawnPoint>(waterCoolerPrefab, 3).CallMe();
+        var phoneGuyPrefab = Resources.Load<GameObject>("Encounters/Phone Guy Encounter");
+        new RandomPicker<ExternalEncounterSpawnPoint>(phoneGuyPrefab, 8).CallMe();
+
+        var echoEncounterPrefab = Resources.Load<GameObject>("Encounters/Echo Encounter");
+        new RandomPicker<ExternalEncounterSpawnPoint>(echoEncounterPrefab, 5).CallMe();
 
         var largePrinterPrefab = Resources.Load<GameObject>("Encounters/Large Printer");
-        new RandomPicker<ExternalEncounterSpawnPoint>(largePrinterPrefab, 3).CallMe();
-
-        new RandomPicker<InternalEncounterSpawnPoint>(waterCoolerPrefab, 30).CallMe();
-
-        new RandomPicker<InternalEncounterSpawnPoint>(largePrinterPrefab, 30).CallMe();
+        new RandomPicker<ExternalEncounterSpawnPoint>(largePrinterPrefab, 10).CallMe();
     }
 }
