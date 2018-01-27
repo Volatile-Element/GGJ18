@@ -64,31 +64,23 @@ public class InventoryManager : MonoBehaviour {
 
                 DestroyImmediate(hit.collider.gameObject);
 
-                //TODO: Add actual end game.
-                SceneManager.LoadSceneAsync("Game Complete");
+                CheckForWinState();
             }
             else if (hit.collider.name.Equals("glass"))
             {
-                if (!CollectedPainKiller)
-                {
-                    return;
-                }
-
                 CollectedGlass = true;
 
                 DestroyImmediate(hit.collider.gameObject);
             }
             else if (hit.collider.name.Equals("Water Cooler"))
             {
-                Debug.Log("Water");
-                //if (!CollectedPainKiller || !CollectedGlass)
-                //{
-                //    return;
-                //}
+                if (!CollectedGlass)
+                {
+                    return;
+                }
 
                 CollectedWater = true;
-
-                //DestroyImmediate(hit.collider.gameObject);
+                CheckForWinState();
             }
             else
             {
@@ -101,6 +93,16 @@ public class InventoryManager : MonoBehaviour {
         }
     }
 
+    private void CheckForWinState()
+    {
+        if (!CollectedWater && !CollectedPainKiller)
+        {
+            return;
+        }
+
+        SceneManager.LoadSceneAsync("Game Complete");
+    }
+
     private void DrinkWater()
     {
         if (!CollectedWater)
@@ -108,11 +110,8 @@ public class InventoryManager : MonoBehaviour {
             return;
         }
 
-        Debug.Log("Drink water");
-
         GetComponent<MigraineTracker>().DecreaseMigraine(20);
 
-        Debug.Log(GetComponent<MigraineTracker>().CurrentMigraineLevelPercentage);
         CollectedWater = false;
     }
 
