@@ -8,11 +8,12 @@ public class GameManager : MonoBehaviour
 	void Start ()
     {
         OfficeGenerator.Instance.Generate(5, 5);
+
+        Replace();
 	}
 	
-	// Update is called once per frame
-	void Update ()
+    private void Replace()
     {
-		
-	}
+        Replacer.Instance.Replace<CubicleSpawner>("Cubicles");
+    }
 }
