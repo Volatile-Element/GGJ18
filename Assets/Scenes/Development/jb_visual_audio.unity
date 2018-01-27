@@ -266,6 +266,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f5d994302a091a4186b6645ec3ca1f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SoundParticlePrefab: {fileID: 1810594355811336, guid: 8fb6b6722cc49834697c6d73163ed542,
+    type: 2}
 --- !u!4 &871231772
 Transform:
   m_ObjectHideFlags: 0
