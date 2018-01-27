@@ -154,6 +154,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4690375968162318}
+  - component: {fileID: 65440389236587206}
   m_Layer: 0
   m_Name: Water Cooler
   m_TagString: Untagged
@@ -310,7 +311,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1574435820511640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10.031925, y: -5.86, z: 7.1412745}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4197680976170376}
@@ -648,6 +649,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1349407967384190}
   m_Mesh: {fileID: 4300008, guid: 6307f908b350f5e4f84632847b9d9622, type: 3}
+--- !u!65 &65440389236587206
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1574435820511640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4382658, y: 1.9437866, z: 0.544044}
+  m_Center: {x: 0.00017023087, y: 1.0093241, z: -0.004039049}
 --- !u!95 &95944975617788892
 Animator:
   serializedVersion: 3
