@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 114062046578353386}
   - component: {fileID: 54390402163654028}
   m_Layer: 0
-  m_Name: Debug Encounter
+  m_Name: People
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

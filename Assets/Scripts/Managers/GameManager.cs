@@ -15,5 +15,8 @@ public class GameManager : MonoBehaviour
     private void Replace()
     {
         Replacer.Instance.Replace<CubicleSpawner>("Cubicles");
+
+        var peoplePrefab = Resources.Load<GameObject>("Encounters/People");
+        new RandomPicker<PeopleSpawner>(peoplePrefab, 3).CallMe();
     }
 }
