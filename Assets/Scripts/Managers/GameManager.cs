@@ -3,9 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class GameManager : MonoBehaviour
 {
+    public bool GameOverTriggered = false;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -19,8 +22,19 @@ public class GameManager : MonoBehaviour
 	
     public void OnGameOver()
     {
-        FindObjectOfType<MigraineTracker>().GetComponent<Animator>().enabled = true;
-        DoActionIn.Create(() => { SceneManager.LoadSceneAsync("Game Over"); }, 1.4f);
+        if (GameOverTriggered)
+        {
+            return;
+        }
+
+        GameOverTriggered = true;
+
+        var animator = FindObjectOfType<MigraineTracker>().GetComponent<Animator>();
+        animator.enabled = true;
+        animator.SetTrigger("Falldown");
+
+        FindObjectOfType<FirstPersonController>().enabled = false;
+        DoActionIn.Create(() => { SceneManager.LoadSceneAsync("Game Over"); }, 3);
     }
 
     private void Replace()

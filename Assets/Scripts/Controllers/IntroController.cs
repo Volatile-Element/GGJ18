@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class IntroController : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class IntroController : MonoBehaviour
 
     public void SetupIntroText()
     {
+        FindObjectOfType<FirstPersonController>().enabled = false;
+
         DoActionIn.Create(() => { uiFade.FadeTextInAndOut("It's a Monday.."); }, 0);
         DoActionIn.Create(() => { uiFade.FadeTextInAndOut("You have a migraine.."); }, 4);
         DoActionIn.Create(() => { uiFade.FadeTextInAndOut("You need a glass, some water and some pain killers."); }, 8);
@@ -30,7 +33,11 @@ public class IntroController : MonoBehaviour
             animator.enabled = true;
             animator.SetTrigger("Start");
 
-            DoActionIn.Create(() => { animator.enabled = false; }, 14);
+            DoActionIn.Create(() =>
+            {
+                animator.enabled = false;
+                FindObjectOfType<FirstPersonController>().enabled = true;
+            }, 14);
         }, 12);
     }
 }
