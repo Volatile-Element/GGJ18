@@ -13,4 +13,9 @@ public class CubicleSpawner : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireCube(transform.position, Vector3.one * 2.5f);
+    }
 }
