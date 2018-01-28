@@ -2708,6 +2708,7 @@ MonoBehaviour:
   Range: 3
   WorsenAmount: 5
   isActive: 1
+  ResourceLocation: Convo Water Cooler
 --- !u!114 &114195748765890942
 MonoBehaviour:
   m_ObjectHideFlags: 1

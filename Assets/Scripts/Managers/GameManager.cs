@@ -18,6 +18,7 @@ public class GameManager : MonoBehaviour
 
         FindObjectOfType<GameOverTracker>().OnGameOver.AddListener(OnGameOver);
 
+        PlayAmbientSounds();
     }
 	
     public void OnGameOver()
@@ -34,7 +35,14 @@ public class GameManager : MonoBehaviour
         animator.SetTrigger("Falldown");
 
         FindObjectOfType<FirstPersonController>().enabled = false;
-        DoActionIn.Create(() => { SceneManager.LoadSceneAsync("Game Over"); }, 3);
+        SoundManager.Instance.PlayLoop("Audio/Fail Sound/Fail Sound");
+        DoActionIn.Create(() => { SceneManager.LoadSceneAsync("Game Over"); }, 6);
+    }
+
+    private void PlayAmbientSounds()
+    {
+        SoundManager.Instance.PlayLoop("Audio/Ambient/Ambient");
+        SoundManager.Instance.PlayLoop("Audio/Heart Beat/Heart Beat");
     }
 
     private void Replace()

@@ -888,6 +888,7 @@ MonoBehaviour:
   Range: 3
   WorsenAmount: 5
   isActive: 1
+  ResourceLocation: Mobile Phone
 --- !u!114 &114670992713331786
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -888,6 +888,7 @@ MonoBehaviour:
   Range: 3
   WorsenAmount: 5
   isActive: 1
+  ResourceLocation: Alexa
 --- !u!114 &114059778203740020
 MonoBehaviour:
   m_ObjectHideFlags: 1

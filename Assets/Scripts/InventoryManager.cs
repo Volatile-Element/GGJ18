@@ -100,7 +100,7 @@ public class InventoryManager : MonoBehaviour {
         {
             return;
         }
-
+        
         SceneManager.LoadSceneAsync("Game Complete");
     }
 
@@ -127,6 +127,7 @@ public class InventoryManager : MonoBehaviour {
         else if (Input.GetKeyDown("2"))
         {
             DrinkWater();
+            SoundManager.Instance.PlaySingleFire("Audio/Swallowd/Gulp");
         }
     }
 }
