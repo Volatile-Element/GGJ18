@@ -62,6 +62,18 @@ public class GameManager : MonoBehaviour
         var mobilePhonePrefab = Resources.Load<GameObject>("CubicalFurniture/Mobile Phone");
         new RandomPicker<MobileSpawnPoint>(mobilePhonePrefab, 50, true).CallMe();
 
+        var frame1Prefab = Resources.Load<GameObject>("CubicalFurniture/Photo Frame 1");
+        new RandomPicker<PictureSpawnPoint>(frame1Prefab, 50).CallMe();
+
+        var frame2Prefab = Resources.Load<GameObject>("CubicalFurniture/Photo Frame 2");
+        new RandomPicker<PictureSpawnPoint>(frame2Prefab, 50).CallMe();
+
+        var frame3Prefab = Resources.Load<GameObject>("CubicalFurniture/Photo Frame 3");
+        new RandomPicker<PictureSpawnPoint>(frame3Prefab, 50).CallMe();
+
+        var frame4Prefab = Resources.Load<GameObject>("CubicalFurniture/Photo Frame 4");
+        new RandomPicker<PictureSpawnPoint>(frame4Prefab, 50).CallMe();
+
         var plantPrefab = Resources.Load<GameObject>("CubicalFurniture/Plant");
         new RandomPicker<PlantSpawner>(plantPrefab, 50, true).CallMe();
 
