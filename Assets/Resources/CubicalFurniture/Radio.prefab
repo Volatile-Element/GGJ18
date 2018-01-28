@@ -53,6 +53,9 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4796422679807086}
+  - component: {fileID: 114205648293342464}
+  - component: {fileID: 114877555596678370}
+  - component: {fileID: 114691363337567294}
   m_Layer: 0
   m_Name: Radio
   m_TagString: Untagged
@@ -328,7 +331,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1239960215100210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -2.3855305, y: -5.86, z: 6.2669897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4279145613133652}
@@ -734,3 +737,49 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114205648293342464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239960215100210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b2c4f031bbac44ab09dd95240e76da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Range: 1
+  WorsenAmount: 1
+  isActive: 0
+--- !u!114 &114691363337567294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239960215100210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e141f204877ad54a953cd33d87a114e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Offset: {x: 0, y: 0, z: 0}
+  Radius: 1
+  particles: {fileID: 0}
+--- !u!114 &114877555596678370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1239960215100210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82e3be6746d303044a62c3a2a2d757a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MinDuration: 0
+  MaxDuration: 6
+  MinTimeBetween: 0
+  MaxTimeBetween: 10
+  currentDuration: 0
+  currentWaiting: 0
+  isActive: 0

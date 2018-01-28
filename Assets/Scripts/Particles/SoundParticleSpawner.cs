@@ -8,9 +8,31 @@ public class SoundParticleSpawner : MonoBehaviour
 
     public float Radius = 1f;
 
+    public ParticleSystem particles;
+
+    public void StopParticles()
+    {
+        if (particles != null)
+        {
+            particles.Stop();
+        }
+    }
+
+    public void StartParticles()
+    {
+        if (particles != null)
+        {
+            particles.Play();
+        }
+        else
+        {
+            particles = SoundParticle.Create(transform.position + Offset, Radius, true);
+        }
+    }
+
     private void Start()
     {
-        SoundParticle.Create(transform.position + Offset, Radius, true);
+        particles = SoundParticle.Create(transform.position + Offset, Radius, true);
     }
 
     private void OnDrawGizmosSelected()
