@@ -268,6 +268,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4648506076086656}
   - component: {fileID: 95296589210741958}
+  - component: {fileID: 114725088734116258}
   m_Layer: 0
   m_Name: Water Cooler 01
   m_TagString: Untagged
@@ -744,6 +745,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4392850343954480}
   - component: {fileID: 95067803204121466}
+  - component: {fileID: 114195748765890942}
   m_Layer: 0
   m_Name: Water Cooler 02
   m_TagString: Untagged
@@ -2706,6 +2708,17 @@ MonoBehaviour:
   Range: 3
   WorsenAmount: 5
   isActive: 1
+--- !u!114 &114195748765890942
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1620367646855234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df424405ee5a9a84393e93f2fd836277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114232389583351824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2720,6 +2733,17 @@ MonoBehaviour:
   Offset: {x: 0.42, y: 2.03, z: 0}
   Radius: 1
   particles: {fileID: 0}
+--- !u!114 &114725088734116258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197436219863416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df424405ee5a9a84393e93f2fd836277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135589904872119300
 SphereCollider:
   m_ObjectHideFlags: 1
