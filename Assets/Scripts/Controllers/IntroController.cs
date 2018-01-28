@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityStandardAssets.Characters.FirstPerson;
 
 public class IntroController : MonoBehaviour
 {
     private UIFade uiFade;
+
+    public UnityEvent OnIntroFinished = new UnityEvent();
 
     private void Awake()
     {
@@ -37,6 +40,8 @@ public class IntroController : MonoBehaviour
             {
                 animator.enabled = false;
                 FindObjectOfType<FirstPersonController>().enabled = true;
+
+                OnIntroFinished.Invoke();
             }, 14);
         }, 12);
     }
