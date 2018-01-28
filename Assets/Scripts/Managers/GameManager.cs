@@ -49,7 +49,7 @@ public class GameManager : MonoBehaviour
         new RandomPicker<PlantSpawner>(plantPrefab, 50, true).CallMe();
 
         var chairPrefab = Resources.Load<GameObject>("CubicalFurniture/Chair");
-        new RandomPicker<ChairSpawnPoint>(chairPrefab, 50, true).CallMe();
+        new RandomPicker<ChairSpawnPoint>(chairPrefab, 1000, true).CallMe();
 
         var waterCoolerPrefab = Resources.Load<GameObject>("Encounters/Water Cooler Encounter");
         new RandomPicker<ExternalEncounterSpawnPoint>(waterCoolerPrefab, 6).CallMe();
@@ -62,5 +62,11 @@ public class GameManager : MonoBehaviour
 
         var largePrinterPrefab = Resources.Load<GameObject>("Encounters/Large Printer");
         new RandomPicker<ExternalEncounterSpawnPoint>(largePrinterPrefab, 10).CallMe();
+
+        //Internal
+        new RandomPicker<InternalEncounterSpawnPoint>(waterCoolerPrefab, 5).CallMe();
+        new RandomPicker<InternalEncounterSpawnPoint>(phoneGuyPrefab, 5).CallMe();
+        new RandomPicker<InternalEncounterSpawnPoint>(echoEncounterPrefab, 5).CallMe();
+        new RandomPicker<InternalEncounterSpawnPoint>(largePrinterPrefab, 5).CallMe();
     }
 }
