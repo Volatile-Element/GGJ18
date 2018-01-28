@@ -9,7 +9,7 @@ public class UIMainMenu : MonoBehaviour
 
     private void Start()
     {
-        SoundManager.Instance.PlayLoop("Audio/Main Menu/Main Menu");
+        SoundManager.Instance.PlayLoop("Audio/Main Menu/Main Menu", 0.1f);
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;

@@ -17,32 +17,32 @@ public class SoundManager : Singleton<SoundManager>
         SoundsContainer = new GameObject("Sounds Container");
     }
 
-    public void PlaySingleFireRandom(string resourceFolder, float range)
+    public void PlaySingleFireRandom(string resourceFolder, float range, float volume = 0.5f)
     {
         var clips = Resources.LoadAll<AudioClip>(resourceFolder);
         var clip = clips.Skip(Random.Range(0, clips.Length - 1)).FirstOrDefault();
 
-        PlaySound(clip, false);
+        PlaySound(clip, false, volume);
     }
 
-    public void PlaySingleFire(string resourceLocation)
+    public void PlaySingleFire(string resourceLocation, float volume = 0.5f)
     {
-        PlaySound(resourceLocation, false);
+        PlaySound(resourceLocation, false, volume);
     }
 
-    public void PlayLoop(string resourceLocation)
+    public void PlayLoop(string resourceLocation, float volume = 0.5f)
     {
-        PlaySound(resourceLocation, true);
+        PlaySound(resourceLocation, true, volume);
     }
 
-    private void PlaySound(string resourcesLocation, bool loop)
+    private void PlaySound(string resourcesLocation, bool loop, float volume = 0.5f)
     {
         var audioClip = Resources.Load<AudioClip>(resourcesLocation);
 
-        PlaySound(audioClip, loop);
+        PlaySound(audioClip, loop, volume);
     }
 
-    public void PlaySound(AudioClip clip, bool loop)
+    public void PlaySound(AudioClip clip, bool loop, float volume = 0.5f)
     {
         var sound = new GameObject($"Sound: {clip.name} - Created At: {Time.realtimeSinceStartup}");
         sound.transform.parent = SoundsContainer.transform.parent;
@@ -51,7 +51,7 @@ public class SoundManager : Singleton<SoundManager>
         audioSource.clip = clip;
         audioSource.playOnAwake = true;
         audioSource.loop = loop;
-        audioSource.volume = 0.5f;
+        audioSource.volume = volume;
 
         if (!loop)
         {

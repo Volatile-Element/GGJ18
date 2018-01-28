@@ -19,7 +19,7 @@ public class MigraineWorsener : MonoBehaviour
 
         if (!string.IsNullOrEmpty(ResourceLocation))
         {
-            SoundManager.Instance.PlaySingleFireRandom("Audio/" + ResourceLocation, 5);
+            SoundManager.Instance.PlaySingleFireRandom("Audio/" + ResourceLocation, 5, 0.1f);
         }
     }
 
