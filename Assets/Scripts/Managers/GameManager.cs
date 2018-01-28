@@ -92,13 +92,13 @@ public class GameManager : MonoBehaviour
         new RandomPicker<ChairSpawnPoint>(chairPrefab, 1000, true).CallMe();
 
         var waterCoolerPrefab = Resources.Load<GameObject>("Encounters/Water Cooler Encounter");
-        new RandomPicker<ExternalEncounterSpawnPoint>(waterCoolerPrefab, 6).CallMe();
+        new RandomPicker<ExternalEncounterSpawnPoint>(waterCoolerPrefab, 5).CallMe();
 
         var phoneGuyPrefab = Resources.Load<GameObject>("Encounters/Phone Guy Encounter");
-        new RandomPicker<ExternalEncounterSpawnPoint>(phoneGuyPrefab, 8).CallMe();
+        new RandomPicker<ExternalEncounterSpawnPoint>(phoneGuyPrefab, 5).CallMe();
 
         var largePrinterPrefab = Resources.Load<GameObject>("Encounters/Large Printer");
-        new RandomPicker<ExternalEncounterSpawnPoint>(largePrinterPrefab, 10).CallMe();
+        new RandomPicker<ExternalEncounterSpawnPoint>(largePrinterPrefab, 5).CallMe();
 
         //Internal
         new RandomPicker<InternalEncounterSpawnPoint>(waterCoolerPrefab, 5).CallMe();

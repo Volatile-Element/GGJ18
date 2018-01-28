@@ -13,6 +13,14 @@ public class MigraineWorsener : MonoBehaviour
 
     public string ResourceLocation = "";
 
+    private void Start()
+    {
+        if (isActive)
+        {
+            SoundManager.Instance.PlayLoopRandom("Audio/" + ResourceLocation, 5, 0.1f);
+        }
+    }
+
     public void Activate()
     {
         isActive = true;

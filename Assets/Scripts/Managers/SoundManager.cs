@@ -22,7 +22,15 @@ public class SoundManager : Singleton<SoundManager>
         var clips = Resources.LoadAll<AudioClip>(resourceFolder);
         var clip = clips.Skip(Random.Range(0, clips.Length - 1)).FirstOrDefault();
 
-        PlaySound(clip, false, volume);
+        PlaySound(clip, false, range, volume);
+    }
+
+    public void PlayLoopRandom(string resourceFolder, float range, float volume = 0.5f)
+    {
+        var clips = Resources.LoadAll<AudioClip>(resourceFolder);
+        var clip = clips.Skip(Random.Range(0, clips.Length - 1)).FirstOrDefault();
+
+        PlaySound(clip, true, range, volume);
     }
 
     public void PlaySingleFire(string resourceLocation, float volume = 0.5f)
@@ -35,14 +43,14 @@ public class SoundManager : Singleton<SoundManager>
         PlaySound(resourceLocation, true, volume);
     }
 
-    private void PlaySound(string resourcesLocation, bool loop, float volume = 0.5f)
+    private void PlaySound(string resourcesLocation, bool loop, float range, float volume = 0.5f)
     {
         var audioClip = Resources.Load<AudioClip>(resourcesLocation);
 
-        PlaySound(audioClip, loop, volume);
+        PlaySound(audioClip, loop, range, volume);
     }
 
-    public void PlaySound(AudioClip clip, bool loop, float volume = 0.5f)
+    public void PlaySound(AudioClip clip, bool loop, float range, float volume = 0.5f)
     {
         var sound = new GameObject($"Sound: {clip.name} - Created At: {Time.realtimeSinceStartup}");
         sound.transform.parent = SoundsContainer.transform.parent;
@@ -52,6 +60,7 @@ public class SoundManager : Singleton<SoundManager>
         audioSource.playOnAwake = true;
         audioSource.loop = loop;
         audioSource.volume = volume;
+        audioSource.maxDistance = range;
 
         if (!loop)
         {
