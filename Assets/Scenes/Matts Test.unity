@@ -363,7 +363,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &396532702 stripped
 GameObject:
@@ -771,7 +771,7 @@ Transform:
   m_LocalScale: {x: 24.875004, y: 1, z: 100}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &781114552
 MonoBehaviour:
@@ -1165,6 +1165,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 106f025514fb8024a8354d25593f7c87, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1576917867
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4690375968162318, guid: 272fc9dde16e64745b91c0ca37069e28, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.1585703
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690375968162318, guid: 272fc9dde16e64745b91c0ca37069e28, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -5.8655124
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690375968162318, guid: 272fc9dde16e64745b91c0ca37069e28, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -4.507713
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690375968162318, guid: 272fc9dde16e64745b91c0ca37069e28, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690375968162318, guid: 272fc9dde16e64745b91c0ca37069e28, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690375968162318, guid: 272fc9dde16e64745b91c0ca37069e28, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690375968162318, guid: 272fc9dde16e64745b91c0ca37069e28, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4690375968162318, guid: 272fc9dde16e64745b91c0ca37069e28, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 272fc9dde16e64745b91c0ca37069e28, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1774420807
 Prefab:
   m_ObjectHideFlags: 0
@@ -1359,5 +1401,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}

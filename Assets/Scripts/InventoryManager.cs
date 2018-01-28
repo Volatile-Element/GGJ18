@@ -73,7 +73,7 @@ public class InventoryManager : MonoBehaviour {
 
                 DestroyImmediate(hit.collider.gameObject);
             }
-            else if (hit.collider.name.Equals("Water Cooler"))
+            else if (hit.collider.name.Equals("Water Cooler") || hit.collider.name.Equals("Water Cooler(Clone)"))
             {
                 if (!CollectedGlass)
                 {
