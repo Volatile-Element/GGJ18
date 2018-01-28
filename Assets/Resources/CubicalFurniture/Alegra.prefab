@@ -221,3 +221,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d16e66c3cd2cac47940fb04d6a5c2fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ResourceLocation: Alexa

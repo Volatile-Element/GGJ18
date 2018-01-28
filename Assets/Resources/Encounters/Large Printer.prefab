@@ -177,6 +177,7 @@ MonoBehaviour:
   Range: 3
   WorsenAmount: 5
   isActive: 1
+  ResourceLocation: Printer
 --- !u!135 &135276745338752956
 SphereCollider:
   m_ObjectHideFlags: 1

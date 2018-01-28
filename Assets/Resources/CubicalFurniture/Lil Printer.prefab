@@ -151,6 +151,7 @@ MonoBehaviour:
   Range: 1
   WorsenAmount: 1
   isActive: 0
+  ResourceLocation: Printer
 --- !u!114 &114385624266263702
 MonoBehaviour:
   m_ObjectHideFlags: 1
