@@ -2691,6 +2691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Offset: {x: -0.41, y: 2.1, z: 0}
   Radius: 1
+  particles: {fileID: 0}
 --- !u!114 &114164528679337692
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2704,6 +2705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Range: 3
   WorsenAmount: 5
+  isActive: 1
 --- !u!114 &114232389583351824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2717,6 +2719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Offset: {x: 0.42, y: 2.03, z: 0}
   Radius: 1
+  particles: {fileID: 0}
 --- !u!135 &135589904872119300
 SphereCollider:
   m_ObjectHideFlags: 1
