@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 
 public class RandomPicker<T> where T : MonoBehaviour
@@ -36,17 +35,12 @@ public class RandomPicker<T> where T : MonoBehaviour
 	    {
 	        var oldObject = spawnObjects[randomNumber].gameObject;
 
-	        GameObject newObject = PrefabUtility.InstantiatePrefab(NewType) as GameObject;
-
-            newObject.transform.rotation = oldObject.transform.rotation;
+	        var newObject = GameObject.Instantiate(NewType, oldObject.transform.position, oldObject.transform.rotation, oldObject.transform.parent) as GameObject;
 
 	        if (RandomRotation)
 	        {
 	            newObject.transform.Rotate(Vector3.up, UnityEngine.Random.Range(0, 359));
             }
-
-            newObject.transform.position = oldObject.transform.position;
-	        newObject.transform.parent = oldObject.transform.parent;
 
             GameObject.DestroyImmediate(oldObject);
 	    }
