@@ -68,7 +68,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1392797542057504}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 6.096261, y: -5.86, z: -17.622356}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4122933864437450}
@@ -162,6 +162,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Offset: {x: 0, y: 1.5, z: 0}
   Radius: 1
+  particles: {fileID: 0}
 --- !u!114 &114972295089777054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -175,6 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Range: 3
   WorsenAmount: 5
+  isActive: 1
 --- !u!135 &135276745338752956
 SphereCollider:
   m_ObjectHideFlags: 1
