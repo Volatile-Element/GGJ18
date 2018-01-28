@@ -47,6 +47,7 @@ public class InventoryManager : MonoBehaviour {
     }
 
     public event OnVariableChangeDelegate OnCollectedWater;
+    public event OnVariableChangeDelegate OnConsumedWater;
 
     public void Raycast()
     {
@@ -66,7 +67,7 @@ public class InventoryManager : MonoBehaviour {
 
                 CheckForWinState();
             }
-            else if (hit.collider.name.Equals("glass"))
+            else if (hit.collider.name.Equals("Glass"))
             {
                 CollectedGlass = true;
 
@@ -95,7 +96,7 @@ public class InventoryManager : MonoBehaviour {
 
     private void CheckForWinState()
     {
-        if (!CollectedWater && !CollectedPainKiller)
+        if (!CollectedWater || !CollectedPainKiller || !CollectedGlass)
         {
             return;
         }
@@ -113,6 +114,7 @@ public class InventoryManager : MonoBehaviour {
         GetComponent<MigraineTracker>().DecreaseMigraine(20);
 
         CollectedWater = false;
+        OnConsumedWater?.Invoke(_collectedWater);
     }
 
     // Update is called once per frame

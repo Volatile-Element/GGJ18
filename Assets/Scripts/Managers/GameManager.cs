@@ -82,5 +82,11 @@ public class GameManager : MonoBehaviour
         new RandomPicker<InternalEncounterSpawnPoint>(phoneGuyPrefab, 5).CallMe();
         new RandomPicker<InternalEncounterSpawnPoint>(echoEncounterPrefab, 5).CallMe();
         new RandomPicker<InternalEncounterSpawnPoint>(largePrinterPrefab, 5).CallMe();
+
+        var decWaterCool = Resources.Load<GameObject>("Decorations/Water Cooler");
+        new RandomPicker<InternalEncounterSpawnPoint>(decWaterCool, 5).CallMe();
+
+        var decPlant = Resources.Load<GameObject>("Decorations/Plant");
+        new RandomPicker<InternalEncounterSpawnPoint>(decPlant, 5).CallMe();
     }
 }
