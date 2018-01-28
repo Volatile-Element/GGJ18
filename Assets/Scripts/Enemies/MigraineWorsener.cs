@@ -9,17 +9,32 @@ public class MigraineWorsener : MonoBehaviour
 
     private MigraineTracker migraineTracker;
 
+    public bool isActive = false;
+
+    public void Activate()
+    {
+        isActive = true;
+    }
+
+    public void Deactivate()
+    {
+        isActive = false;
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        var tracker = other.GetComponent<MigraineTracker>();
-        if (tracker == null)
+        if (isActive)
         {
-            return;
+            var tracker = other.GetComponent<MigraineTracker>();
+            if (tracker == null)
+            {
+                return;
+            }
+
+            migraineTracker = tracker;
+
+            StartCoroutine(WorsenMigraine());
         }
-
-        migraineTracker = tracker;
-
-        StartCoroutine(WorsenMigraine());
     }
 
     private void OnTriggerExit(Collider other)
