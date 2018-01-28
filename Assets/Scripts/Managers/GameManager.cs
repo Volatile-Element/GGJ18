@@ -61,14 +61,32 @@ public class GameManager : MonoBehaviour
         var alegraPrefab = Resources.Load<GameObject>("CubicalFurniture/Alegra");
         new RandomPicker<RadioSpawnPoint>(alegraPrefab, 25).CallMe();
 
+        var echoEncounterPrefab = Resources.Load<GameObject>("Encounters/Echo Encounter");
+        new RandomPicker<echoGuySpawner>(echoEncounterPrefab, 5).CallMe();
+
         var deskPhonePrefab = Resources.Load<GameObject>("CubicalFurniture/Telephone");
         new RandomPicker<DeskPhoneSpawnPoint>(deskPhonePrefab, 50).CallMe();
 
         var mobilePhonePrefab = Resources.Load<GameObject>("CubicalFurniture/Mobile Phone");
         new RandomPicker<MobileSpawnPoint>(mobilePhonePrefab, 50, true).CallMe();
 
+        var frame1Prefab = Resources.Load<GameObject>("CubicalFurniture/Photo Frame 1");
+        new RandomPicker<PictureSpawnPoint>(frame1Prefab, 50).CallMe();
+
+        var frame2Prefab = Resources.Load<GameObject>("CubicalFurniture/Photo Frame 2");
+        new RandomPicker<PictureSpawnPoint>(frame2Prefab, 50).CallMe();
+
+        var frame3Prefab = Resources.Load<GameObject>("CubicalFurniture/Photo Frame 3");
+        new RandomPicker<PictureSpawnPoint>(frame3Prefab, 50).CallMe();
+
+        var frame4Prefab = Resources.Load<GameObject>("CubicalFurniture/Photo Frame 4");
+        new RandomPicker<PictureSpawnPoint>(frame4Prefab, 50).CallMe();
+
         var plantPrefab = Resources.Load<GameObject>("CubicalFurniture/Plant");
         new RandomPicker<PlantSpawner>(plantPrefab, 50, true).CallMe();
+
+        var chairWithEasterEggPrefab = Resources.Load<GameObject>("Encounters/ChairWithEasterEgg");
+        new RandomPicker<ChairSpawnPoint>(chairWithEasterEggPrefab, 1).CallMe();
 
         var chairPrefab = Resources.Load<GameObject>("CubicalFurniture/Chair");
         new RandomPicker<ChairSpawnPoint>(chairPrefab, 1000, true).CallMe();
@@ -79,22 +97,15 @@ public class GameManager : MonoBehaviour
         var phoneGuyPrefab = Resources.Load<GameObject>("Encounters/Phone Guy Encounter");
         new RandomPicker<ExternalEncounterSpawnPoint>(phoneGuyPrefab, 8).CallMe();
 
-        var echoEncounterPrefab = Resources.Load<GameObject>("Encounters/Echo Encounter");
-        new RandomPicker<ExternalEncounterSpawnPoint>(echoEncounterPrefab, 5).CallMe();
-
         var largePrinterPrefab = Resources.Load<GameObject>("Encounters/Large Printer");
         new RandomPicker<ExternalEncounterSpawnPoint>(largePrinterPrefab, 10).CallMe();
 
         //Internal
         new RandomPicker<InternalEncounterSpawnPoint>(waterCoolerPrefab, 5).CallMe();
         new RandomPicker<InternalEncounterSpawnPoint>(phoneGuyPrefab, 5).CallMe();
-        new RandomPicker<InternalEncounterSpawnPoint>(echoEncounterPrefab, 5).CallMe();
         new RandomPicker<InternalEncounterSpawnPoint>(largePrinterPrefab, 5).CallMe();
 
         var decWaterCool = Resources.Load<GameObject>("Decorations/Water Cooler");
         new RandomPicker<InternalEncounterSpawnPoint>(decWaterCool, 5).CallMe();
-
-        var decPlant = Resources.Load<GameObject>("Decorations/Plant");
-        new RandomPicker<InternalEncounterSpawnPoint>(decPlant, 5).CallMe();
     }
 }
