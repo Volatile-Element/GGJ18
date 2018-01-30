@@ -8,9 +8,11 @@ public class OfficeGenerator : Singleton<OfficeGenerator>
     public GameObject Straight;
     public GameObject Middle;
 
+    private float pieceSize = 10;
+
     public GameObject Generate(int width, int height)
     {
-        var office = new GameObject();
+        var office = new GameObject("Office");
 
         for (int x = 0; x < width; x++)
         {
@@ -26,49 +28,53 @@ public class OfficeGenerator : Singleton<OfficeGenerator>
 
     private GameObject SpawnPiece(int width, int height, int x, int z)
     {
-        GameObject newPiece;
+        GameObject pieceToSpawn;
+        var rotation = new Vector3();
 
         if (x == 0 && z == 0)
         {
-            newPiece = Instantiate(Corner, new Vector3(), Quaternion.identity); //Top Left.
+            pieceToSpawn = Corner; //Top Left.
+            rotation = new Vector3(0, 270, 0);
         }
-
-        if (x == 0 && z == height - 1)
+        else if (x == 0 && z == height - 1)
         {
-            newPiece = Instantiate(Corner, new Vector3(), Quaternion.identity); //Top Right.
+            pieceToSpawn = Corner; //Top Right.
         }
-
-        if (x == width - 1 && height == 0)
+        else if(x == width - 1 && z == 0)
         {
-            newPiece = Instantiate(Corner, new Vector3(), Quaternion.identity); //Bottom Left.
+            pieceToSpawn = Corner; //Bottom Left.
+            rotation = new Vector3(0, 180, 0);
         }
-
-        if (x == width - 1 && z == height - 1)
+        else if (x == width - 1 && z == height - 1)
         {
-            newPiece = Instantiate(Corner, new Vector3(), Quaternion.identity); //Bottom Right.
+            pieceToSpawn = Corner;
+            rotation = new Vector3(0, 90, 0);
         }
-
-        if (x == 0)
+        else if (x == 0)
         {
-            newPiece = Instantiate(Straight, new Vector3(), Quaternion.identity); //Left Wall.
+            pieceToSpawn = Straight; //Left Wall.
+            rotation = new Vector3(0, 270, 0);
         }
-
-        if (x == width - 1)
+        else if (x == width - 1)
         {
-            newPiece = Instantiate(Straight, new Vector3(), Quaternion.identity); //Right Wall.
+            pieceToSpawn = Straight; //Right Wall.
+            rotation = new Vector3(0, 90, 0);
         }
-
-        if (z == 0)
+        else if (z == 0)
         {
-            newPiece = Instantiate(Straight, new Vector3(), Quaternion.identity); //Top Wall.
+            pieceToSpawn = Straight; //Top Wall.
+            rotation = new Vector3(0, 180, 0);
         }
-
-        if (z == height - 1)
+        else if (z == height - 1)
         {
-            newPiece = Instantiate(Straight, new Vector3(), Quaternion.identity); //Bottom Wall.
+            pieceToSpawn = Straight; //Bottom Wall.
         }
-
-        newPiece = Instantiate(Middle, new Vector3(), Quaternion.identity);
+        else
+        {
+            pieceToSpawn = Middle;
+        }
+        
+        var newPiece = Instantiate(pieceToSpawn, new Vector3(x * pieceSize, 0, z * pieceSize), Quaternion.Euler(rotation));
 
         return newPiece;
     }
